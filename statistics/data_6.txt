@@ -1,0 +1,929 @@
+from fighter import Fighter
+import torch
+from neural import Neural
+from situationRater import SituationRater
+from net import Net
+'''test = [[1, -3], [0, -2]]
+fighter = Fighter()
+print("test", fighter.get_data(test))'''
+
+accuracies = []
+
+neo1 = Neural(3, 5, "Frank", 2, 1)
+neo1.change_super_parameters(1e-4, 100, 0.5, 60)
+neo1.init_net()
+accuracies.append(neo1.train())
+
+neo2 = Neural(3, 5, "Fedor", 2, 1)
+neo2.change_super_parameters(1e-4, 100, 0.5, 120)
+neo2.init_net()
+accuracies.append(neo2.train())
+
+neo3 = Neural(3, 5, "Faina", 2, 1)
+neo3.change_super_parameters(1e-5, 100, 0.5, 100)
+neo3.init_net()
+accuracies.append(neo3.train())
+
+neo4 = Neural(3, 5, "Felix", 2, 1)
+neo4.change_super_parameters(1e-3, 100, 0.5, 100)
+neo4.init_net()
+accuracies.append(neo4.train())
+
+print(accuracies)
+
+'''n = Net(34, 120)
+n.load_state_dict(torch.load("test.ckpt"))
+n.eval()
+'''
+
+'''x = [[2, 0, 1, 0, 0, 0, -2, -2, -1],
+     [3, 1, 2, 0, 0, 0, -1, -3, 0],
+     [0, 1, 2, 1, 0, 0, 0, -1, 0],
+     [0, 0, 3, 3, 0, 0, 0, -1, 0]]
+sr = SituationRater()
+sr.reset()
+sr.fill(x)
+print(sr.left, sr.right)
+print("rating")
+print(sr.rate())'''
+
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\python.exe C:/Users/DenBa/PycharmProjects/1/new_main.py
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\lib\site-packages\setuptools\distutils_patch.py:25: UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+  warnings.warn(
+The name of this net is Frank. It starts initialisation. Fri Jan 28 12:22:29 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+net inited in  0.0015 minutes
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+epoch 1 has passed in 0.486 minutes, accuracy is 63.48098848225862%
+epoch 2 has passed in 0.477 minutes, accuracy is 64.18435912923542%
+epoch 3 has passed in 0.492 minutes, accuracy is 64.61225234786176%
+epoch 4 has passed in 0.49 minutes, accuracy is 64.92235262239835%
+epoch 5 has passed in 0.49 minutes, accuracy is 65.10506340308709%
+epoch 6 has passed in 0.491 minutes, accuracy is 65.27290894003286%
+epoch 7 has passed in 0.495 minutes, accuracy is 65.45731322950242%
+epoch 8 has passed in 0.49 minutes, accuracy is 65.61405687555157%
+epoch 9 has passed in 0.483 minutes, accuracy is 65.75254826029607%
+epoch 10 has passed in 0.483 minutes, accuracy is 65.86055648698539%
+epoch 11 has passed in 0.485 minutes, accuracy is 65.98136011335218%
+epoch 12 has passed in 0.487 minutes, accuracy is 66.09407253109941%
+epoch 13 has passed in 0.489 minutes, accuracy is 66.22089752202032%
+epoch 14 has passed in 0.489 minutes, accuracy is 66.3390668013947%
+epoch 15 has passed in 0.489 minutes, accuracy is 66.42487124629073%
+epoch 16 has passed in 0.494 minutes, accuracy is 66.49806845915163%
+epoch 17 has passed in 0.491 minutes, accuracy is 66.55131990192702%
+epoch 18 has passed in 0.481 minutes, accuracy is 66.63129114991128%
+epoch 19 has passed in 0.483 minutes, accuracy is 66.68322541919046%
+epoch 20 has passed in 0.485 minutes, accuracy is 66.75868064375913%
+epoch 21 has passed in 0.482 minutes, accuracy is 66.79085731059516%
+epoch 22 has passed in 0.491 minutes, accuracy is 66.86781787630235%
+epoch 23 has passed in 0.432 minutes, accuracy is 66.9048869018386%
+epoch 24 has passed in 0.432 minutes, accuracy is 66.93254754525903%
+epoch 25 has passed in 0.431 minutes, accuracy is 66.98956234088074%
+epoch 26 has passed in 0.432 minutes, accuracy is 67.03848592788287%
+epoch 27 has passed in 0.43 minutes, accuracy is 67.06765191244183%
+epoch 28 has passed in 0.428 minutes, accuracy is 67.09832323813933%
+epoch 29 has passed in 0.465 minutes, accuracy is 67.12372586985197%
+epoch 30 has passed in 0.43 minutes, accuracy is 67.1431071370105%
+epoch 31 has passed in 0.43 minutes, accuracy is 67.20971848239033%
+epoch 32 has passed in 0.432 minutes, accuracy is 67.23286310239519%
+epoch 33 has passed in 0.427 minutes, accuracy is 67.24659934028423%
+epoch 34 has passed in 0.429 minutes, accuracy is 67.28761988630912%
+epoch 35 has passed in 0.428 minutes, accuracy is 67.30982366810238%
+epoch 36 has passed in 0.431 minutes, accuracy is 67.3384251497344%
+epoch 37 has passed in 0.43 minutes, accuracy is 67.36100526681231%
+epoch 38 has passed in 0.424 minutes, accuracy is 67.37888119283232%
+epoch 39 has passed in 0.423 minutes, accuracy is 67.38302088096326%
+epoch 40 has passed in 0.423 minutes, accuracy is 67.4247940975574%
+epoch 41 has passed in 0.423 minutes, accuracy is 67.4319444679654%
+epoch 42 has passed in 0.422 minutes, accuracy is 67.42291242113424%
+epoch 43 has passed in 0.425 minutes, accuracy is 67.4485032204892%
+epoch 44 has passed in 0.423 minutes, accuracy is 67.47051883464016%
+epoch 45 has passed in 0.424 minutes, accuracy is 67.50326000440312%
+epoch 46 has passed in 0.421 minutes, accuracy is 67.51981875692692%
+epoch 47 has passed in 0.422 minutes, accuracy is 67.52715729497723%
+epoch 48 has passed in 0.424 minutes, accuracy is 67.55086641790903%
+epoch 49 has passed in 0.429 minutes, accuracy is 67.56780150571747%
+epoch 50 has passed in 0.429 minutes, accuracy is 67.59753199320339%
+epoch 51 has passed in 0.427 minutes, accuracy is 67.62312279255835%
+epoch 52 has passed in 0.458 minutes, accuracy is 67.65529945939437%
+epoch 53 has passed in 0.427 minutes, accuracy is 67.68089025874933%
+epoch 54 has passed in 0.426 minutes, accuracy is 67.66658951793332%
+epoch 55 has passed in 0.427 minutes, accuracy is 67.67957308525311%
+epoch 56 has passed in 0.43 minutes, accuracy is 67.70271770525797%
+epoch 57 has passed in 0.427 minutes, accuracy is 67.70572838753502%
+epoch 58 has passed in 0.44 minutes, accuracy is 67.72172263713188%
+epoch 59 has passed in 0.435 minutes, accuracy is 67.70045969355017%
+epoch 60 has passed in 0.429 minutes, accuracy is 67.7362115455902%
+epoch 61 has passed in 0.429 minutes, accuracy is 67.7540874716102%
+epoch 62 has passed in 0.43 minutes, accuracy is 67.75615731567568%
+epoch 63 has passed in 0.549 minutes, accuracy is 67.76613020071842%
+epoch 64 has passed in 0.474 minutes, accuracy is 67.77384507405337%
+epoch 65 has passed in 0.467 minutes, accuracy is 67.76387218901063%
+epoch 66 has passed in 0.476 minutes, accuracy is 67.78174811503064%
+epoch 67 has passed in 0.462 minutes, accuracy is 67.80639807617402%
+epoch 68 has passed in 0.464 minutes, accuracy is 67.79604885584665%
+epoch 69 has passed in 0.474 minutes, accuracy is 67.79849503519677%
+epoch 70 has passed in 0.465 minutes, accuracy is 67.81975797877845%
+epoch 71 has passed in 0.465 minutes, accuracy is 67.82653201390183%
+epoch 72 has passed in 0.459 minutes, accuracy is 67.81430111715129%
+epoch 73 has passed in 0.455 minutes, accuracy is 67.83499955780604%
+epoch 74 has passed in 0.455 minutes, accuracy is 67.85174647797216%
+epoch 75 has passed in 0.455 minutes, accuracy is 67.86190753065722%
+epoch 76 has passed in 0.456 minutes, accuracy is 67.87696094204249%
+epoch 77 has passed in 0.457 minutes, accuracy is 67.92268567912525%
+epoch 78 has passed in 0.46 minutes, accuracy is 67.9292715466063%
+epoch 79 has passed in 0.476 minutes, accuracy is 67.94714747262631%
+epoch 80 has passed in 0.464 minutes, accuracy is 67.95994287230378%
+epoch 81 has passed in 0.466 minutes, accuracy is 67.9766897924699%
+epoch 82 has passed in 0.462 minutes, accuracy is 67.99061419800128%
+epoch 83 has passed in 0.458 minutes, accuracy is 67.99494205377455%
+epoch 84 has passed in 0.461 minutes, accuracy is 68.00246875946718%
+epoch 85 has passed in 0.446 minutes, accuracy is 68.01507599150234%
+epoch 86 has passed in 0.448 minutes, accuracy is 68.01902751199098%
+epoch 87 has passed in 0.448 minutes, accuracy is 68.05327402289248%
+epoch 88 has passed in 0.447 minutes, accuracy is 68.05760187866574%
+epoch 89 has passed in 0.447 minutes, accuracy is 68.05063967590004%
+epoch 90 has passed in 0.447 minutes, accuracy is 68.0630587402929%
+epoch 91 has passed in 0.448 minutes, accuracy is 68.06512858435838%
+epoch 92 has passed in 0.447 minutes, accuracy is 68.06512858435838%
+epoch 93 has passed in 0.446 minutes, accuracy is 68.0974934188367%
+epoch 94 has passed in 0.453 minutes, accuracy is 68.06701026078153%
+epoch 95 has passed in 0.448 minutes, accuracy is 68.09448273655966%
+epoch 96 has passed in 0.448 minutes, accuracy is 68.0950472394866%
+epoch 97 has passed in 0.447 minutes, accuracy is 68.08545068972849%
+epoch 98 has passed in 0.452 minutes, accuracy is 68.11311133314892%
+epoch 99 has passed in 0.445 minutes, accuracy is 68.11198232729502%
+epoch 100 has passed in 0.446 minutes, accuracy is 68.12270788290704%
+0.7130419929311841
+0.7350854632023226
+getting accuracy
+50000 [0.15479108691215515, 0.45202213525772095, 0.3931868076324463] 1 2
+100000 [0.04923999682068825, 0.5895660519599915, 0.3611938953399658] 1 1
+150000 [0.14289966225624084, 0.6498216390609741, 0.20727869868278503] 1 1
+200000 [0.09991411119699478, 0.5377519130706787, 0.3623340427875519] 1 2
+250000 [0.5348559617996216, 0.41544491052627563, 0.04969914257526398] 0 0
+300000 [0.0015773188788443804, 0.16788017749786377, 0.8305425047874451] 2 2
+350000 [0.051838673651218414, 0.509802520275116, 0.43835875391960144] 1 1
+400000 [0.5302875638008118, 0.38831275701522827, 0.08139969408512115] 0 1
+450000 [0.29188400506973267, 0.6265829801559448, 0.08153301477432251] 1 1
+500000 [0.305291086435318, 0.6423994302749634, 0.05230950191617012] 1 1
+accuracy is 68.12270788290704%
+accuracy got in 0.24 minutes
+done in 69.4 minutes
+Fri Jan 28 13:31:53 2022
+Frank trained. 
+
+The name of this net is Fedor. It starts initialisation. Fri Jan 28 13:31:53 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+net inited in  0.0007 minutes
+epoch 1 has passed in 0.539 minutes, accuracy is 63.96081597016414%
+epoch 2 has passed in 0.54 minutes, accuracy is 64.86684316791515%
+epoch 3 has passed in 0.568 minutes, accuracy is 65.45298537372916%
+epoch 4 has passed in 0.542 minutes, accuracy is 65.93187202342311%
+epoch 5 has passed in 0.553 minutes, accuracy is 66.26078906219128%
+epoch 6 has passed in 0.567 minutes, accuracy is 66.46495095410403%
+epoch 7 has passed in 0.551 minutes, accuracy is 66.66403231967425%
+epoch 8 has passed in 0.546 minutes, accuracy is 66.92313916314323%
+epoch 9 has passed in 0.561 minutes, accuracy is 67.07969464155005%
+epoch 10 has passed in 0.542 minutes, accuracy is 67.27425998370468%
+epoch 11 has passed in 0.552 minutes, accuracy is 67.42667577398056%
+epoch 12 has passed in 0.546 minutes, accuracy is 67.55500610604%
+epoch 13 has passed in 0.558 minutes, accuracy is 67.66828302671416%
+epoch 14 has passed in 0.556 minutes, accuracy is 67.76594203307612%
+epoch 15 has passed in 0.544 minutes, accuracy is 67.88919183879301%
+epoch 16 has passed in 0.55 minutes, accuracy is 67.97461994840444%
+epoch 17 has passed in 0.56 minutes, accuracy is 68.06023622565817%
+epoch 18 has passed in 0.54 minutes, accuracy is 68.19082456942539%
+epoch 19 has passed in 0.58 minutes, accuracy is 68.26477445285553%
+epoch 20 has passed in 0.599 minutes, accuracy is 68.34681554490527%
+epoch 21 has passed in 0.589 minutes, accuracy is 68.4134268902851%
+epoch 22 has passed in 0.591 minutes, accuracy is 68.44936690996742%
+epoch 23 has passed in 0.564 minutes, accuracy is 68.53423051665189%
+epoch 24 has passed in 0.542 minutes, accuracy is 68.60479338252036%
+epoch 25 has passed in 0.548 minutes, accuracy is 68.6800604394467%
+epoch 26 has passed in 0.537 minutes, accuracy is 68.69962987424756%
+epoch 27 has passed in 0.533 minutes, accuracy is 68.76548854905813%
+epoch 28 has passed in 0.533 minutes, accuracy is 68.76492404613118%
+epoch 29 has passed in 0.546 minutes, accuracy is 68.83341706793416%
+epoch 30 has passed in 0.54 minutes, accuracy is 68.90473260437189%
+epoch 31 has passed in 0.548 minutes, accuracy is 68.92693638616517%
+epoch 32 has passed in 0.544 minutes, accuracy is 68.98940804341403%
+epoch 33 has passed in 0.545 minutes, accuracy is 69.01763318976141%
+epoch 34 has passed in 0.585 minutes, accuracy is 69.05376137708608%
+epoch 35 has passed in 0.569 minutes, accuracy is 69.06881478847134%
+epoch 36 has passed in 0.545 minutes, accuracy is 69.10343763465747%
+epoch 37 has passed in 0.566 minutes, accuracy is 69.12827576344317%
+epoch 38 has passed in 0.556 minutes, accuracy is 69.17531767402214%
+epoch 39 has passed in 0.554 minutes, accuracy is 69.20410732329647%
+epoch 40 has passed in 0.551 minutes, accuracy is 69.22085424346258%
+epoch 41 has passed in 0.55 minutes, accuracy is 69.26168662184513%
+epoch 42 has passed in 0.543 minutes, accuracy is 69.24512786932134%
+epoch 43 has passed in 0.541 minutes, accuracy is 69.28878276233861%
+epoch 44 has passed in 0.547 minutes, accuracy is 69.34222237275634%
+epoch 45 has passed in 0.56 minutes, accuracy is 69.34560939031802%
+epoch 46 has passed in 0.55 minutes, accuracy is 69.37364636902309%
+epoch 47 has passed in 0.549 minutes, accuracy is 69.38305475113889%
+epoch 48 has passed in 0.549 minutes, accuracy is 69.41880660317891%
+epoch 49 has passed in 0.575 minutes, accuracy is 69.42388712952143%
+epoch 50 has passed in 0.575 minutes, accuracy is 69.46208516091156%
+epoch 51 has passed in 0.577 minutes, accuracy is 69.47864391343536%
+epoch 52 has passed in 0.555 minutes, accuracy is 69.50686905978274%
+epoch 53 has passed in 0.627 minutes, accuracy is 69.48993397197431%
+epoch 54 has passed in 0.593 minutes, accuracy is 69.50893890384822%
+epoch 55 has passed in 0.597 minutes, accuracy is 69.54581976174214%
+epoch 56 has passed in 0.622 minutes, accuracy is 69.55108845572697%
+epoch 57 has passed in 0.592 minutes, accuracy is 69.576114752155%
+epoch 58 has passed in 0.574 minutes, accuracy is 69.61205477183732%
+epoch 59 has passed in 0.576 minutes, accuracy is 69.61450095118742%
+epoch 60 has passed in 0.568 minutes, accuracy is 69.62447383623017%
+epoch 61 has passed in 0.579 minutes, accuracy is 69.64291426517714%
+epoch 62 has passed in 0.581 minutes, accuracy is 69.66587071753966%
+epoch 63 has passed in 0.595 minutes, accuracy is 69.6543924913584%
+epoch 64 has passed in 0.565 minutes, accuracy is 69.68619282290979%
+epoch 65 has passed in 0.564 minutes, accuracy is 69.69804738437568%
+epoch 66 has passed in 0.567 minutes, accuracy is 69.69842371966031%
+epoch 67 has passed in 0.55 minutes, accuracy is 69.69785921673338%
+epoch 68 has passed in 0.55 minutes, accuracy is 69.73718625397738%
+epoch 69 has passed in 0.576 minutes, accuracy is 69.72495535722686%
+epoch 70 has passed in 0.565 minutes, accuracy is 69.73323473348876%
+epoch 71 has passed in 0.571 minutes, accuracy is 69.75374500650119%
+epoch 72 has passed in 0.556 minutes, accuracy is 69.73831525983128%
+epoch 73 has passed in 0.562 minutes, accuracy is 69.7680457473172%
+epoch 74 has passed in 0.562 minutes, accuracy is 69.78422816455637%
+epoch 75 has passed in 0.554 minutes, accuracy is 69.77971214114078%
+epoch 76 has passed in 0.577 minutes, accuracy is 69.79269570846058%
+epoch 77 has passed in 0.556 minutes, accuracy is 69.81038346683827%
+epoch 78 has passed in 0.576 minutes, accuracy is 69.79965791122626%
+epoch 79 has passed in 0.569 minutes, accuracy is 69.81885101074249%
+epoch 80 has passed in 0.572 minutes, accuracy is 69.83145824277766%
+epoch 81 has passed in 0.583 minutes, accuracy is 69.8401139543242%
+epoch 82 has passed in 0.574 minutes, accuracy is 69.83446892505471%
+epoch 83 has passed in 0.583 minutes, accuracy is 69.84350097188587%
+epoch 84 has passed in 0.574 minutes, accuracy is 69.87191428587558%
+epoch 85 has passed in 0.574 minutes, accuracy is 69.84764066001682%
+epoch 86 has passed in 0.573 minutes, accuracy is 69.86175323319051%
+epoch 87 has passed in 0.575 minutes, accuracy is 69.87737114750273%
+epoch 88 has passed in 0.569 minutes, accuracy is 69.86457574782526%
+epoch 89 has passed in 0.572 minutes, accuracy is 69.90183294100379%
+epoch 90 has passed in 0.597 minutes, accuracy is 69.9195206993815%
+epoch 91 has passed in 0.585 minutes, accuracy is 69.91651001710444%
+epoch 92 has passed in 0.573 minutes, accuracy is 69.90728980263096%
+epoch 93 has passed in 0.58 minutes, accuracy is 69.94943935450972%
+epoch 94 has passed in 0.572 minutes, accuracy is 69.94435882816718%
+epoch 95 has passed in 0.591 minutes, accuracy is 69.92271954930087%
+epoch 96 has passed in 0.59 minutes, accuracy is 69.96204658654489%
+epoch 97 has passed in 0.579 minutes, accuracy is 69.93306876962824%
+epoch 98 has passed in 0.569 minutes, accuracy is 69.96524543646426%
+epoch 99 has passed in 0.568 minutes, accuracy is 69.96054124540636%
+epoch 100 has passed in 0.569 minutes, accuracy is 69.96392826296804%
+0.6564696727438356
+0.7201232428392544
+getting accuracy
+50000 [0.2926149070262909, 0.42728352546691895, 0.28010156750679016] 1 2
+100000 [0.06171335279941559, 0.5442076921463013, 0.3940789997577667] 1 1
+150000 [0.325335294008255, 0.6101363301277161, 0.06452834606170654] 1 1
+200000 [0.17452770471572876, 0.3941974639892578, 0.4312748610973358] 2 2
+250000 [0.3991006016731262, 0.4825289249420166, 0.11837048083543777] 1 0
+300000 [3.2288411603076383e-05, 0.07605895400047302, 0.9239087104797363] 2 2
+350000 [0.22744834423065186, 0.6400285363197327, 0.13252313435077667] 1 1
+400000 [0.47120997309684753, 0.5000796318054199, 0.0287103783339262] 1 1
+450000 [0.5750198364257812, 0.3784768283367157, 0.04650333151221275] 0 1
+500000 [0.10198498517274857, 0.8741548657417297, 0.023860132321715355] 1 1
+accuracy is 69.96392826296804%
+accuracy got in 0.26 minutes
+done in 82.1 minutes
+Fri Jan 28 14:54:01 2022
+Fedor trained. 
+
+The name of this net is Faina. It starts initialisation. Fri Jan 28 14:54:01 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+net inited in  0.0012 minutes
+epoch 1 has passed in 0.539 minutes, accuracy is 60.17789368904545%
+epoch 2 has passed in 0.543 minutes, accuracy is 61.99088892275907%
+epoch 3 has passed in 0.547 minutes, accuracy is 62.619933351021096%
+epoch 4 has passed in 0.549 minutes, accuracy is 62.8780993562785%
+epoch 5 has passed in 0.566 minutes, accuracy is 63.10747571226156%
+epoch 6 has passed in 0.58 minutes, accuracy is 63.28868115181178%
+epoch 7 has passed in 0.556 minutes, accuracy is 63.455397682903644%
+epoch 8 has passed in 0.512 minutes, accuracy is 63.60367378504858%
+epoch 9 has passed in 0.508 minutes, accuracy is 63.77678801597919%
+epoch 10 has passed in 0.52 minutes, accuracy is 63.92506411812412%
+epoch 11 has passed in 0.511 minutes, accuracy is 64.05489979132209%
+epoch 12 has passed in 0.512 minutes, accuracy is 64.16008550337668%
+epoch 13 has passed in 0.511 minutes, accuracy is 64.24551361298808%
+epoch 14 has passed in 0.511 minutes, accuracy is 64.32435585511844%
+epoch 15 has passed in 0.522 minutes, accuracy is 64.43650376993871%
+epoch 16 has passed in 0.512 minutes, accuracy is 64.5049967917417%
+epoch 17 has passed in 0.514 minutes, accuracy is 64.58929589549922%
+epoch 18 has passed in 0.521 minutes, accuracy is 64.68883657828432%
+epoch 19 has passed in 0.512 minutes, accuracy is 64.76824332334164%
+epoch 20 has passed in 0.513 minutes, accuracy is 64.85216609181452%
+epoch 21 has passed in 0.516 minutes, accuracy is 64.90447669637834%
+epoch 22 has passed in 0.512 minutes, accuracy is 64.97522772988911%
+epoch 23 has passed in 0.505 minutes, accuracy is 65.05764515722348%
+epoch 24 has passed in 0.5 minutes, accuracy is 65.10393439723319%
+epoch 25 has passed in 0.545 minutes, accuracy is 65.15116447545446%
+epoch 26 has passed in 0.534 minutes, accuracy is 65.20291057709134%
+epoch 27 has passed in 0.526 minutes, accuracy is 65.26086621092463%
+epoch 28 has passed in 0.518 minutes, accuracy is 65.31618749776551%
+epoch 29 has passed in 0.522 minutes, accuracy is 65.38185800493376%
+epoch 30 has passed in 0.524 minutes, accuracy is 65.41121215713504%
+epoch 31 has passed in 0.522 minutes, accuracy is 65.46258192348728%
+epoch 32 has passed in 0.521 minutes, accuracy is 65.50153262544667%
+epoch 33 has passed in 0.519 minutes, accuracy is 65.54292950675617%
+epoch 34 has passed in 0.52 minutes, accuracy is 65.57830502351155%
+epoch 35 has passed in 0.518 minutes, accuracy is 65.61123436091682%
+epoch 36 has passed in 0.515 minutes, accuracy is 65.65187857165706%
+epoch 37 has passed in 0.514 minutes, accuracy is 65.68894759719329%
+epoch 38 has passed in 0.525 minutes, accuracy is 65.73128531671438%
+epoch 39 has passed in 0.514 minutes, accuracy is 65.7790798978626%
+epoch 40 has passed in 0.513 minutes, accuracy is 65.80090734437125%
+epoch 41 has passed in 0.526 minutes, accuracy is 65.83760003462285%
+epoch 42 has passed in 0.518 minutes, accuracy is 65.87880874829003%
+epoch 43 has passed in 0.52 minutes, accuracy is 65.91851212081869%
+epoch 44 has passed in 0.515 minutes, accuracy is 65.94146857318121%
+epoch 45 has passed in 0.52 minutes, accuracy is 65.96649486960922%
+epoch 46 has passed in 0.524 minutes, accuracy is 66.00168221872231%
+epoch 47 has passed in 0.521 minutes, accuracy is 66.03160087385052%
+epoch 48 has passed in 0.519 minutes, accuracy is 66.06001418784024%
+epoch 49 has passed in 0.519 minutes, accuracy is 66.08297064020276%
+epoch 50 has passed in 0.517 minutes, accuracy is 66.1153354746811%
+epoch 51 has passed in 0.522 minutes, accuracy is 66.13227056248954%
+epoch 52 has passed in 0.516 minutes, accuracy is 66.15466251192512%
+epoch 53 has passed in 0.517 minutes, accuracy is 66.17743079664534%
+epoch 54 has passed in 0.512 minutes, accuracy is 66.19662389616157%
+epoch 55 has passed in 0.517 minutes, accuracy is 66.21299448104305%
+epoch 56 has passed in 0.516 minutes, accuracy is 66.24347763909823%
+epoch 57 has passed in 0.516 minutes, accuracy is 66.26925660609551%
+epoch 58 has passed in 0.523 minutes, accuracy is 66.29973976415067%
+epoch 59 has passed in 0.524 minutes, accuracy is 66.314228672609%
+epoch 60 has passed in 0.519 minutes, accuracy is 66.34828701586818%
+epoch 61 has passed in 0.521 minutes, accuracy is 66.37707666514251%
+epoch 62 has passed in 0.516 minutes, accuracy is 66.39269457945473%
+epoch 63 has passed in 0.518 minutes, accuracy is 66.4171563729558%
+epoch 64 has passed in 0.508 minutes, accuracy is 66.43917198710675%
+epoch 65 has passed in 0.519 minutes, accuracy is 66.4611876012577%
+epoch 66 has passed in 0.518 minutes, accuracy is 66.48884824467814%
+epoch 67 has passed in 0.517 minutes, accuracy is 66.52008407330258%
+epoch 68 has passed in 0.519 minutes, accuracy is 66.52290658793733%
+epoch 69 has passed in 0.515 minutes, accuracy is 66.54642754322681%
+epoch 70 has passed in 0.521 minutes, accuracy is 66.5663733133123%
+epoch 71 has passed in 0.519 minutes, accuracy is 66.59629196844053%
+epoch 72 has passed in 0.517 minutes, accuracy is 66.61510873267211%
+epoch 73 has passed in 0.523 minutes, accuracy is 66.6363716762538%
+epoch 74 has passed in 0.515 minutes, accuracy is 66.6576346198355%
+epoch 75 has passed in 0.518 minutes, accuracy is 66.6741933723593%
+epoch 76 has passed in 0.519 minutes, accuracy is 66.69150479545236%
+epoch 77 has passed in 0.516 minutes, accuracy is 66.709757056757%
+epoch 78 has passed in 0.521 minutes, accuracy is 66.73384251497345%
+epoch 79 has passed in 0.514 minutes, accuracy is 66.74964859692798%
+epoch 80 has passed in 0.515 minutes, accuracy is 66.76037415253998%
+epoch 81 has passed in 0.517 minutes, accuracy is 66.78502411368336%
+epoch 82 has passed in 0.524 minutes, accuracy is 66.80421721319958%
+epoch 83 has passed in 0.512 minutes, accuracy is 66.82792633613138%
+epoch 84 has passed in 0.514 minutes, accuracy is 66.84373241808592%
+epoch 85 has passed in 0.516 minutes, accuracy is 66.87365107321415%
+epoch 86 has passed in 0.518 minutes, accuracy is 66.87873159955667%
+epoch 87 has passed in 0.522 minutes, accuracy is 66.89830103435753%
+epoch 88 has passed in 0.524 minutes, accuracy is 66.91994031322386%
+epoch 89 has passed in 0.523 minutes, accuracy is 66.94007425095165%
+epoch 90 has passed in 0.523 minutes, accuracy is 66.95700933876009%
+epoch 91 has passed in 0.517 minutes, accuracy is 66.97770777941484%
+epoch 92 has passed in 0.521 minutes, accuracy is 66.98975050852304%
+epoch 93 has passed in 0.514 minutes, accuracy is 66.99765354950033%
+epoch 94 has passed in 0.517 minutes, accuracy is 67.01647031373192%
+epoch 95 has passed in 0.511 minutes, accuracy is 67.02625503113234%
+epoch 96 has passed in 0.509 minutes, accuracy is 67.03340540154034%
+epoch 97 has passed in 0.527 minutes, accuracy is 67.0399912690214%
+epoch 98 has passed in 0.521 minutes, accuracy is 67.05730269211446%
+epoch 99 has passed in 0.517 minutes, accuracy is 67.06821641536878%
+epoch 100 has passed in 0.53 minutes, accuracy is 67.08872668838121%
+0.7548397439137902
+0.7634155101191012
+getting accuracy
+50000 [0.19506846368312836, 0.5493128895759583, 0.2556186616420746] 1 2
+100000 [0.07199561595916748, 0.47136104106903076, 0.45664331316947937] 1 1
+150000 [0.035256363451480865, 0.6735324263572693, 0.2912111282348633] 1 1
+200000 [0.07363465428352356, 0.6787100434303284, 0.2476552277803421] 1 2
+250000 [0.43647029995918274, 0.5198742747306824, 0.043655380606651306] 1 0
+300000 [0.005957134999334812, 0.44590798020362854, 0.5481348633766174] 2 2
+350000 [0.05475577712059021, 0.6272171139717102, 0.3180271089076996] 1 1
+400000 [0.36204221844673157, 0.5178496241569519, 0.12010813504457474] 1 1
+450000 [0.15924043953418732, 0.747831404209137, 0.09292814880609512] 1 1
+500000 [0.12614421546459198, 0.8058680295944214, 0.06798778474330902] 1 1
+accuracy is 67.08872668838121%
+accuracy got in 0.25 minutes
+done in 77.0 minutes
+Fri Jan 28 16:10:59 2022
+Faina trained. 
+
+The name of this net is Felix. It starts initialisation. Fri Jan 28 16:10:59 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+net inited in  0.0008 minutes
+epoch 1 has passed in 0.514 minutes, accuracy is 65.00382921152112%
+epoch 2 has passed in 0.508 minutes, accuracy is 65.86206182812391%
+epoch 3 has passed in 0.509 minutes, accuracy is 66.4858375624011%
+epoch 4 has passed in 0.521 minutes, accuracy is 66.78878746652967%
+epoch 5 has passed in 0.555 minutes, accuracy is 67.1536445249802%
+epoch 6 has passed in 0.56 minutes, accuracy is 67.33823698209208%
+epoch 7 has passed in 0.548 minutes, accuracy is 67.52282943920397%
+epoch 8 has passed in 0.549 minutes, accuracy is 67.60355335775749%
+epoch 9 has passed in 0.57 minutes, accuracy is 67.67637423533375%
+epoch 10 has passed in 0.56 minutes, accuracy is 67.76067333909126%
+epoch 11 has passed in 0.576 minutes, accuracy is 67.96144821344232%
+epoch 12 has passed in 0.571 minutes, accuracy is 67.80000037633529%
+epoch 13 has passed in 0.572 minutes, accuracy is 67.83725756951384%
+epoch 14 has passed in 0.554 minutes, accuracy is 67.94093794042989%
+epoch 15 has passed in 0.553 minutes, accuracy is 68.08620336029776%
+epoch 16 has passed in 0.583 minutes, accuracy is 67.968410416208%
+epoch 17 has passed in 0.608 minutes, accuracy is 67.93322306709494%
+epoch 18 has passed in 0.581 minutes, accuracy is 68.06719842842385%
+epoch 19 has passed in 0.601 minutes, accuracy is 68.08149916923986%
+epoch 20 has passed in 0.599 minutes, accuracy is 68.08752053379396%
+epoch 21 has passed in 0.605 minutes, accuracy is 68.01055996808677%
+epoch 22 has passed in 0.594 minutes, accuracy is 68.1422773177079%
+epoch 23 has passed in 0.623 minutes, accuracy is 68.10520829217165%
+epoch 24 has passed in 0.564 minutes, accuracy is 68.11781552420683%
+epoch 25 has passed in 0.575 minutes, accuracy is 68.0950472394866%
+epoch 26 has passed in 0.604 minutes, accuracy is 68.12233154762241%
+epoch 27 has passed in 0.565 minutes, accuracy is 68.10972431558724%
+epoch 28 has passed in 0.562 minutes, accuracy is 68.1281647445342%
+epoch 29 has passed in 0.565 minutes, accuracy is 68.11950903298766%
+epoch 30 has passed in 0.561 minutes, accuracy is 68.17520665511317%
+epoch 31 has passed in 0.567 minutes, accuracy is 68.14321815591947%
+epoch 32 has passed in 0.57 minutes, accuracy is 68.12571856518409%
+epoch 33 has passed in 0.561 minutes, accuracy is 68.05308585525016%
+epoch 34 has passed in 0.565 minutes, accuracy is 68.07905298988976%
+epoch 35 has passed in 0.563 minutes, accuracy is 68.09260106013649%
+epoch 36 has passed in 0.561 minutes, accuracy is 68.16805628470517%
+epoch 37 has passed in 0.574 minutes, accuracy is 68.12967008567273%
+epoch 38 has passed in 0.566 minutes, accuracy is 68.0335164204493%
+epoch 39 has passed in 0.564 minutes, accuracy is 68.0109363033714%
+epoch 40 has passed in 0.564 minutes, accuracy is 67.86397737472268%
+epoch 41 has passed in 0.565 minutes, accuracy is 67.87978345667722%
+epoch 42 has passed in 0.565 minutes, accuracy is 67.96859858385032%
+epoch 43 has passed in 0.564 minutes, accuracy is 68.029753067603%
+epoch 44 has passed in 0.568 minutes, accuracy is 67.79943587340834%
+epoch 45 has passed in 0.578 minutes, accuracy is 67.94206694628379%
+epoch 46 has passed in 0.566 minutes, accuracy is 67.9731146072659%
+epoch 47 has passed in 0.562 minutes, accuracy is 67.83311788138288%
+epoch 48 has passed in 0.606 minutes, accuracy is 67.93905626400672%
+epoch 49 has passed in 0.636 minutes, accuracy is 67.9209921703444%
+epoch 50 has passed in 0.585 minutes, accuracy is 67.9209921703444%
+epoch 51 has passed in 0.573 minutes, accuracy is 68.0252370441874%
+epoch 52 has passed in 0.578 minutes, accuracy is 68.15055669396979%
+epoch 53 has passed in 0.576 minutes, accuracy is 67.76537753014917%
+epoch 54 has passed in 0.597 minutes, accuracy is 67.91591164400187%
+epoch 55 has passed in 0.61 minutes, accuracy is 67.79698969405823%
+epoch 56 has passed in 0.58 minutes, accuracy is 67.8583323454532%
+epoch 57 has passed in 0.594 minutes, accuracy is 67.70610472281966%
+epoch 58 has passed in 0.609 minutes, accuracy is 67.86679988935742%
+epoch 59 has passed in 0.648 minutes, accuracy is 68.09824608940598%
+epoch 60 has passed in 0.616 minutes, accuracy is 67.9232501820522%
+epoch 61 has passed in 0.6 minutes, accuracy is 67.77836109746896%
+epoch 62 has passed in 0.583 minutes, accuracy is 67.87564376854628%
+epoch 63 has passed in 0.611 minutes, accuracy is 67.92550819375998%
+epoch 64 has passed in 0.604 minutes, accuracy is 67.84139725764477%
+epoch 65 has passed in 0.587 minutes, accuracy is 68.0974934188367%
+epoch 66 has passed in 0.603 minutes, accuracy is 67.9256963614023%
+epoch 67 has passed in 0.595 minutes, accuracy is 68.02486070890278%
+epoch 68 has passed in 0.589 minutes, accuracy is 67.83104803731742%
+epoch 69 has passed in 0.593 minutes, accuracy is 67.80225838804309%
+epoch 70 has passed in 0.601 minutes, accuracy is 67.96220088401158%
+epoch 71 has passed in 0.601 minutes, accuracy is 67.90838493830924%
+epoch 72 has passed in 0.616 minutes, accuracy is 67.72586232526282%
+epoch 73 has passed in 0.609 minutes, accuracy is 67.81599462593213%
+epoch 74 has passed in 0.591 minutes, accuracy is 68.07641864289732%
+epoch 75 has passed in 0.752 minutes, accuracy is 68.15243837039296%
+epoch 76 has passed in 0.591 minutes, accuracy is 67.75785082445653%
+epoch 77 has passed in 0.583 minutes, accuracy is 67.90067006497429%
+epoch 78 has passed in 0.582 minutes, accuracy is 67.97631345718528%
+epoch 79 has passed in 0.584 minutes, accuracy is 67.93454024059115%
+epoch 80 has passed in 0.601 minutes, accuracy is 67.96257721929622%
+epoch 81 has passed in 0.578 minutes, accuracy is 67.91647614692882%
+epoch 82 has passed in 0.582 minutes, accuracy is 67.93435207294884%
+epoch 83 has passed in 0.588 minutes, accuracy is 67.80508090267782%
+epoch 84 has passed in 0.577 minutes, accuracy is 67.81975797877845%
+epoch 85 has passed in 0.589 minutes, accuracy is 67.84271443114099%
+epoch 86 has passed in 0.593 minutes, accuracy is 67.61559608686571%
+epoch 87 has passed in 0.597 minutes, accuracy is 67.71701844607398%
+epoch 88 has passed in 0.574 minutes, accuracy is 67.7254859899782%
+epoch 89 has passed in 0.574 minutes, accuracy is 67.56817784100211%
+epoch 90 has passed in 0.596 minutes, accuracy is 67.59828466377265%
+epoch 91 has passed in 0.59 minutes, accuracy is 67.93811542579516%
+epoch 92 has passed in 0.643 minutes, accuracy is 67.64419756849772%
+epoch 93 has passed in 0.585 minutes, accuracy is 67.68126659403396%
+epoch 94 has passed in 0.613 minutes, accuracy is 67.82352133162478%
+epoch 95 has passed in 0.6 minutes, accuracy is 67.6630143327293%
+epoch 96 has passed in 0.596 minutes, accuracy is 67.58962895222612%
+epoch 97 has passed in 0.62 minutes, accuracy is 67.44906772341615%
+epoch 98 has passed in 0.602 minutes, accuracy is 67.60976288995391%
+epoch 99 has passed in 0.615 minutes, accuracy is 67.45508908797025%
+epoch 100 has passed in 0.621 minutes, accuracy is 67.76989355356474%
+0.6754837928678844
+0.7483122164563009
+getting accuracy
+50000 [0.2973540723323822, 0.5749980807304382, 0.12764787673950195] 1 2
+100000 [0.11789944022893906, 0.652366578578949, 0.22973398864269257] 1 1
+150000 [0.05886296555399895, 0.7821022868156433, 0.15903468430042267] 1 1
+200000 [0.16358061134815216, 0.5310533046722412, 0.3053661286830902] 1 2
+250000 [0.994474470615387, 0.005525542888790369, 2.356989980967228e-08] 0 0
+300000 [0.0005107601755298674, 0.2076234072446823, 0.7918657660484314] 2 2
+350000 [0.22490356862545013, 0.4630418121814728, 0.3120546042919159] 1 1
+400000 [0.3356620669364929, 0.5894896388053894, 0.07484832406044006] 1 1
+450000 [0.2268340140581131, 0.719884991645813, 0.0532810315489769] 1 1
+500000 [0.13003773987293243, 0.8527935743331909, 0.017168676480650902] 1 1
+accuracy is 67.76989355356474%
+accuracy got in 0.27 minutes
+done in 84.8 minutes
+Fri Jan 28 17:35:45 2022
+Felix trained. 
+
+[68.12270788290704, 69.96392826296804, 67.08872668838121, 67.76989355356474]
+
+Process finished with exit code 0
+
+neo1 = Neural(3, 5, "Dave", 2, 1)
+neo1.change_super_parameters(1e-4, 150, 0.5, 200)
+neo1.init_net()
+accuracies.append(neo1.train())
+
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\python.exe C:/Users/DenBa/PycharmProjects/1/new_main.py
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\lib\site-packages\setuptools\distutils_patch.py:25: UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+  warnings.warn(
+The name of this net is Dave. It starts initialisation. Fri Jan 28 18:39:50 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+net inited in  0.0013 minutes
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+epoch 1 has passed in 0.661 minutes, accuracy is 64.51233532979201%
+epoch 2 has passed in 0.649 minutes, accuracy is 65.49381775211171%
+epoch 3 has passed in 0.648 minutes, accuracy is 66.12549652736615%
+epoch 4 has passed in 0.651 minutes, accuracy is 66.61887208551843%
+epoch 5 has passed in 0.657 minutes, accuracy is 67.02644319877466%
+epoch 6 has passed in 0.655 minutes, accuracy is 67.38565522795568%
+epoch 7 has passed in 0.655 minutes, accuracy is 67.68709979094575%
+epoch 8 has passed in 0.653 minutes, accuracy is 67.94074977278757%
+epoch 9 has passed in 0.651 minutes, accuracy is 68.14792234697737%
+epoch 10 has passed in 0.648 minutes, accuracy is 68.33195030116231%
+epoch 11 has passed in 0.651 minutes, accuracy is 68.50431186152368%
+epoch 12 has passed in 0.651 minutes, accuracy is 68.65446964009175%
+epoch 13 has passed in 0.644 minutes, accuracy is 68.80538008922909%
+epoch 14 has passed in 0.649 minutes, accuracy is 68.93634476828096%
+epoch 15 has passed in 0.646 minutes, accuracy is 69.07747050001788%
+epoch 16 has passed in 0.645 minutes, accuracy is 69.16873180654109%
+epoch 17 has passed in 0.644 minutes, accuracy is 69.23647215777481%
+epoch 18 has passed in 0.642 minutes, accuracy is 69.29179344461568%
+epoch 19 has passed in 0.645 minutes, accuracy is 69.37590438073087%
+epoch 20 has passed in 0.644 minutes, accuracy is 69.49689617474%
+epoch 21 has passed in 0.645 minutes, accuracy is 69.59192083410952%
+epoch 22 has passed in 0.644 minutes, accuracy is 69.62579100972638%
+epoch 23 has passed in 0.621 minutes, accuracy is 69.69183785217926%
+epoch 24 has passed in 0.611 minutes, accuracy is 69.71046644876854%
+epoch 25 has passed in 0.646 minutes, accuracy is 69.77594878829446%
+epoch 26 has passed in 0.638 minutes, accuracy is 69.85366202457092%
+epoch 27 has passed in 0.654 minutes, accuracy is 69.90013943222296%
+epoch 28 has passed in 0.636 minutes, accuracy is 69.94755767808655%
+epoch 29 has passed in 0.641 minutes, accuracy is 69.98255685955732%
+epoch 30 has passed in 0.645 minutes, accuracy is 70.01097017354702%
+epoch 31 has passed in 0.641 minutes, accuracy is 70.03524379940576%
+epoch 32 has passed in 0.667 minutes, accuracy is 70.07362999843821%
+epoch 33 has passed in 0.678 minutes, accuracy is 70.09075325388896%
+epoch 34 has passed in 0.649 minutes, accuracy is 70.09752728901233%
+epoch 35 has passed in 0.645 minutes, accuracy is 70.10260781535486%
+epoch 36 has passed in 0.643 minutes, accuracy is 70.14532187016056%
+epoch 37 has passed in 0.646 minutes, accuracy is 70.16771381959616%
+epoch 38 has passed in 0.645 minutes, accuracy is 70.19951415114754%
+epoch 39 has passed in 0.646 minutes, accuracy is 70.23902935603388%
+epoch 40 has passed in 0.645 minutes, accuracy is 70.27440487278926%
+epoch 41 has passed in 0.643 minutes, accuracy is 70.29303346937854%
+epoch 42 has passed in 0.644 minutes, accuracy is 70.280802572628%
+epoch 43 has passed in 0.653 minutes, accuracy is 70.33593569182656%
+epoch 44 has passed in 0.64 minutes, accuracy is 70.36397267053162%
+epoch 45 has passed in 0.638 minutes, accuracy is 70.36547801167016%
+epoch 46 has passed in 0.64 minutes, accuracy is 70.37093487329732%
+epoch 47 has passed in 0.64 minutes, accuracy is 70.37356922028974%
+epoch 48 has passed in 0.642 minutes, accuracy is 70.39596116972533%
+epoch 49 has passed in 0.644 minutes, accuracy is 70.40386421070261%
+epoch 50 has passed in 0.639 minutes, accuracy is 70.43152485412304%
+epoch 51 has passed in 0.633 minutes, accuracy is 70.43980423038494%
+epoch 52 has passed in 0.641 minutes, accuracy is 70.45768015640495%
+epoch 53 has passed in 0.637 minutes, accuracy is 70.45147062420853%
+epoch 54 has passed in 0.638 minutes, accuracy is 70.48289462047528%
+epoch 55 has passed in 0.645 minutes, accuracy is 70.47649692063654%
+epoch 56 has passed in 0.643 minutes, accuracy is 70.50867358747254%
+epoch 57 has passed in 0.642 minutes, accuracy is 70.53275904568899%
+epoch 58 has passed in 0.64 minutes, accuracy is 70.54386093658562%
+epoch 59 has passed in 0.639 minutes, accuracy is 70.53464072211214%
+epoch 60 has passed in 0.64 minutes, accuracy is 70.5636185390288%
+epoch 61 has passed in 0.636 minutes, accuracy is 70.59297269123007%
+epoch 62 has passed in 0.64 minutes, accuracy is 70.58130629740648%
+epoch 63 has passed in 0.631 minutes, accuracy is 70.59052651187997%
+epoch 64 has passed in 0.614 minutes, accuracy is 70.58299980618733%
+epoch 65 has passed in 0.616 minutes, accuracy is 70.57679027399091%
+epoch 66 has passed in 0.616 minutes, accuracy is 70.54367276894331%
+epoch 67 has passed in 0.615 minutes, accuracy is 70.55082313935131%
+epoch 68 has passed in 0.615 minutes, accuracy is 70.53633423089298%
+epoch 69 has passed in 0.614 minutes, accuracy is 70.52203349007698%
+epoch 70 has passed in 0.613 minutes, accuracy is 70.52993653105425%
+epoch 71 has passed in 0.615 minutes, accuracy is 70.5412265895932%
+epoch 72 has passed in 0.611 minutes, accuracy is 70.51845830487298%
+epoch 73 has passed in 0.613 minutes, accuracy is 70.50566290519549%
+epoch 74 has passed in 0.615 minutes, accuracy is 70.50434573169927%
+epoch 75 has passed in 0.612 minutes, accuracy is 70.51450678438435%
+epoch 76 has passed in 0.614 minutes, accuracy is 70.49493734958348%
+epoch 77 has passed in 0.613 minutes, accuracy is 70.5224098253616%
+epoch 78 has passed in 0.613 minutes, accuracy is 70.5224098253616%
+epoch 79 has passed in 0.614 minutes, accuracy is 70.5305010339812%
+epoch 80 has passed in 0.613 minutes, accuracy is 70.50867358747254%
+epoch 81 has passed in 0.614 minutes, accuracy is 70.4985125347875%
+epoch 82 has passed in 0.672 minutes, accuracy is 70.55251664813215%
+epoch 83 has passed in 0.657 minutes, accuracy is 70.51111976682266%
+epoch 84 has passed in 0.689 minutes, accuracy is 70.52297432828856%
+epoch 85 has passed in 0.67 minutes, accuracy is 70.5235388312155%
+epoch 86 has passed in 0.652 minutes, accuracy is 70.50189955234917%
+epoch 87 has passed in 0.667 minutes, accuracy is 70.49230300259107%
+epoch 88 has passed in 0.687 minutes, accuracy is 70.47706142356348%
+epoch 89 has passed in 0.684 minutes, accuracy is 70.49681902600665%
+epoch 90 has passed in 0.648 minutes, accuracy is 70.48722247624853%
+epoch 91 has passed in 0.674 minutes, accuracy is 70.49719536129129%
+epoch 92 has passed in 0.653 minutes, accuracy is 70.48966865559865%
+epoch 93 has passed in 0.751 minutes, accuracy is 70.48609347039464%
+epoch 94 has passed in 0.688 minutes, accuracy is 70.50886175511486%
+epoch 95 has passed in 0.689 minutes, accuracy is 70.51845830487298%
+epoch 96 has passed in 0.684 minutes, accuracy is 70.51243694031886%
+epoch 97 has passed in 0.655 minutes, accuracy is 70.5235388312155%
+epoch 98 has passed in 0.664 minutes, accuracy is 70.52749035170413%
+epoch 99 has passed in 0.646 minutes, accuracy is 70.51130793446497%
+epoch 100 has passed in 0.642 minutes, accuracy is 70.5233506635732%
+epoch 101 has passed in 0.643 minutes, accuracy is 70.51130793446497%
+epoch 102 has passed in 0.644 minutes, accuracy is 70.51507128731129%
+epoch 103 has passed in 0.648 minutes, accuracy is 70.49531368486812%
+epoch 104 has passed in 0.65 minutes, accuracy is 70.51921097544223%
+epoch 105 has passed in 0.642 minutes, accuracy is 70.5009587141376%
+epoch 106 has passed in 0.641 minutes, accuracy is 70.48214194990601%
+epoch 107 has passed in 0.642 minutes, accuracy is 70.48816331446012%
+epoch 108 has passed in 0.648 minutes, accuracy is 70.48722247624853%
+epoch 109 has passed in 0.642 minutes, accuracy is 70.51111976682266%
+epoch 110 has passed in 0.642 minutes, accuracy is 70.51017892861108%
+epoch 111 has passed in 0.642 minutes, accuracy is 70.50509840226854%
+epoch 112 has passed in 0.643 minutes, accuracy is 70.50415756405697%
+epoch 113 has passed in 0.642 minutes, accuracy is 70.5318182074774%
+epoch 114 has passed in 0.658 minutes, accuracy is 70.50999076096876%
+epoch 115 has passed in 0.641 minutes, accuracy is 70.52542050763867%
+epoch 116 has passed in 0.644 minutes, accuracy is 70.52805485463108%
+epoch 117 has passed in 0.64 minutes, accuracy is 70.54386093658562%
+epoch 118 has passed in 0.64 minutes, accuracy is 70.54254376308941%
+epoch 119 has passed in 0.654 minutes, accuracy is 70.51808196958834%
+epoch 120 has passed in 0.657 minutes, accuracy is 70.54611894829341%
+epoch 121 has passed in 0.65 minutes, accuracy is 70.51582395788056%
+epoch 122 has passed in 0.649 minutes, accuracy is 70.53332354861594%
+epoch 123 has passed in 0.643 minutes, accuracy is 70.51676479609213%
+epoch 124 has passed in 0.646 minutes, accuracy is 70.49437284665655%
+epoch 125 has passed in 0.645 minutes, accuracy is 70.5139422814574%
+epoch 126 has passed in 0.645 minutes, accuracy is 70.49775986421824%
+epoch 127 has passed in 0.641 minutes, accuracy is 70.4796957705559%
+epoch 128 has passed in 0.639 minutes, accuracy is 70.5128132756035%
+epoch 129 has passed in 0.645 minutes, accuracy is 70.44676643315061%
+epoch 130 has passed in 0.67 minutes, accuracy is 70.43190118940767%
+epoch 131 has passed in 0.665 minutes, accuracy is 70.4275733336344%
+epoch 132 has passed in 0.67 minutes, accuracy is 70.41195541932218%
+epoch 133 has passed in 0.663 minutes, accuracy is 70.42117563379566%
+epoch 134 has passed in 0.654 minutes, accuracy is 70.41157908403754%
+epoch 135 has passed in 0.66 minutes, accuracy is 70.4334065305462%
+epoch 136 has passed in 0.655 minutes, accuracy is 70.41045007818366%
+epoch 137 has passed in 0.656 minutes, accuracy is 70.44225040973504%
+epoch 138 has passed in 0.657 minutes, accuracy is 70.4181649515186%
+epoch 139 has passed in 0.656 minutes, accuracy is 70.43547637461167%
+epoch 140 has passed in 0.652 minutes, accuracy is 70.37940241720153%
+epoch 141 has passed in 0.649 minutes, accuracy is 70.38278943476321%
+epoch 142 has passed in 0.648 minutes, accuracy is 70.37563906435521%
+epoch 143 has passed in 0.65 minutes, accuracy is 70.36303183232006%
+epoch 144 has passed in 0.645 minutes, accuracy is 70.38053142305543%
+epoch 145 has passed in 0.646 minutes, accuracy is 70.35494062370047%
+epoch 146 has passed in 0.645 minutes, accuracy is 70.35023643264256%
+epoch 147 has passed in 0.648 minutes, accuracy is 70.33010249491477%
+epoch 148 has passed in 0.643 minutes, accuracy is 70.3351830212573%
+epoch 149 has passed in 0.68 minutes, accuracy is 70.32426929800297%
+epoch 150 has passed in 0.66 minutes, accuracy is 70.30658153962528%
+0.5679558872448056
+0.7698812913343805
+getting accuracy
+50000 [0.5406820178031921, 0.06657933443784714, 0.39273861050605774] 0 2
+100000 [0.020545100793242455, 0.6777226328849792, 0.30173221230506897] 1 1
+150000 [0.17705558240413666, 0.43429672718048096, 0.3886477053165436] 1 1
+200000 [0.08531928807497025, 0.22125966846942902, 0.6934210062026978] 2 2
+250000 [0.41833189129829407, 0.5014829039573669, 0.08018524199724197] 1 0
+300000 [4.337074642535299e-06, 0.18269427120685577, 0.8173013925552368] 2 2
+350000 [0.16517336666584015, 0.7452750205993652, 0.0895516648888588] 1 1
+400000 [0.5069414377212524, 0.4629139006137848, 0.03014460578560829] 0 1
+450000 [0.2019648253917694, 0.790702223777771, 0.007332976441830397] 1 1
+500000 [0.24455881118774414, 0.7190711498260498, 0.036370038986206055] 1 1
+accuracy is 70.30658153962528%
+accuracy got in 0.25 minutes
+done in 134.7 minutes
+Fri Jan 28 20:54:31 2022
+Dave trained. 
+
+[70.30658153962528]
+
+Process finished with exit code 0
+
+neo1 = Neural(3, 5, "Daniel", 2, 1)
+neo1.change_super_parameters(1e-5, 150, 0.5, 200)
+neo1.init_net()
+accuracies.append(neo1.train())
+
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\python.exe C:/Users/DenBa/PycharmProjects/1/new_main.py
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\lib\site-packages\setuptools\distutils_patch.py:25: UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+  warnings.warn(
+The name of this net is Daniel. It starts initialisation. Fri Jan 28 21:04:52 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+net inited in  0.0008 minutes
+epoch 1 has passed in 0.65 minutes, accuracy is 62.16325048312042%
+epoch 2 has passed in 0.669 minutes, accuracy is 62.91385120831852%
+epoch 3 has passed in 0.655 minutes, accuracy is 63.3530344854838%
+epoch 4 has passed in 0.647 minutes, accuracy is 63.67555382441324%
+epoch 5 has passed in 0.668 minutes, accuracy is 63.947456067559706%
+epoch 6 has passed in 0.65 minutes, accuracy is 64.16987022077709%
+epoch 7 has passed in 0.651 minutes, accuracy is 64.3546508455313%
+epoch 8 has passed in 0.653 minutes, accuracy is 64.55392037874384%
+epoch 9 has passed in 0.647 minutes, accuracy is 64.74227618870204%
+epoch 10 has passed in 0.651 minutes, accuracy is 64.89826716418192%
+epoch 11 has passed in 0.657 minutes, accuracy is 65.02923184323377%
+epoch 12 has passed in 0.647 minutes, accuracy is 65.17957778944418%
+epoch 13 has passed in 0.649 minutes, accuracy is 65.30809628914592%
+epoch 14 has passed in 0.644 minutes, accuracy is 65.41798619225841%
+epoch 15 has passed in 0.646 minutes, accuracy is 65.52298373667067%
+epoch 16 has passed in 0.645 minutes, accuracy is 65.64152935132968%
+epoch 17 has passed in 0.645 minutes, accuracy is 65.75367726614996%
+epoch 18 has passed in 0.662 minutes, accuracy is 65.85227711072349%
+epoch 19 has passed in 0.645 minutes, accuracy is 65.96179067855134%
+epoch 20 has passed in 0.646 minutes, accuracy is 66.0477832910897%
+epoch 21 has passed in 0.645 minutes, accuracy is 66.13038888606637%
+epoch 22 has passed in 0.644 minutes, accuracy is 66.21431165453926%
+epoch 23 has passed in 0.646 minutes, accuracy is 66.28506268805003%
+epoch 24 has passed in 0.647 minutes, accuracy is 66.35299120692608%
+epoch 25 has passed in 0.644 minutes, accuracy is 66.41414569067874%
+epoch 26 has passed in 0.643 minutes, accuracy is 66.47210132451204%
+epoch 27 has passed in 0.644 minutes, accuracy is 66.53664282582639%
+epoch 28 has passed in 0.646 minutes, accuracy is 66.60363050649084%
+epoch 29 has passed in 0.646 minutes, accuracy is 66.66911284601677%
+epoch 30 has passed in 0.652 minutes, accuracy is 66.71653109188038%
+epoch 31 has passed in 0.647 minutes, accuracy is 66.77975541969852%
+epoch 32 has passed in 0.649 minutes, accuracy is 66.82905534198528%
+epoch 33 has passed in 0.645 minutes, accuracy is 66.86461902638298%
+epoch 34 has passed in 0.653 minutes, accuracy is 66.9097792605388%
+epoch 35 has passed in 0.666 minutes, accuracy is 66.95381048884072%
+epoch 36 has passed in 0.649 minutes, accuracy is 67.01552947552032%
+epoch 37 has passed in 0.646 minutes, accuracy is 67.05485651276435%
+epoch 38 has passed in 0.647 minutes, accuracy is 67.09211370594291%
+epoch 39 has passed in 0.644 minutes, accuracy is 67.15571436904567%
+epoch 40 has passed in 0.647 minutes, accuracy is 67.20539062661707%
+epoch 41 has passed in 0.651 minutes, accuracy is 67.25676039296931%
+epoch 42 has passed in 0.648 minutes, accuracy is 67.30135612419818%
+epoch 43 has passed in 0.643 minutes, accuracy is 67.32036105607207%
+epoch 44 has passed in 0.645 minutes, accuracy is 67.3726716606359%
+epoch 45 has passed in 0.646 minutes, accuracy is 67.39863879527549%
+epoch 46 has passed in 0.644 minutes, accuracy is 67.43570782081171%
+epoch 47 has passed in 0.616 minutes, accuracy is 67.47992721675595%
+epoch 48 has passed in 0.705 minutes, accuracy is 67.51191571594966%
+epoch 49 has passed in 0.734 minutes, accuracy is 67.53694201237766%
+epoch 50 has passed in 0.722 minutes, accuracy is 67.56723700279052%
+epoch 51 has passed in 0.734 minutes, accuracy is 67.61013922523856%
+epoch 52 has passed in 0.704 minutes, accuracy is 67.65191244183268%
+epoch 53 has passed in 0.717 minutes, accuracy is 67.69199214964597%
+epoch 54 has passed in 0.693 minutes, accuracy is 67.72605049290515%
+epoch 55 has passed in 0.696 minutes, accuracy is 67.74110390429041%
+epoch 56 has passed in 0.704 minutes, accuracy is 67.76857638006854%
+epoch 57 has passed in 0.741 minutes, accuracy is 67.81016142902034%
+epoch 58 has passed in 0.746 minutes, accuracy is 67.84741862219889%
+epoch 59 has passed in 0.728 minutes, accuracy is 67.87771361261174%
+epoch 60 has passed in 0.723 minutes, accuracy is 67.91553530871724%
+epoch 61 has passed in 0.721 minutes, accuracy is 67.95316883718043%
+epoch 62 has passed in 0.727 minutes, accuracy is 67.98647450987033%
+epoch 63 has passed in 0.722 minutes, accuracy is 68.00397410060572%
+epoch 64 has passed in 0.73 minutes, accuracy is 68.03784427622257%
+epoch 65 has passed in 0.721 minutes, accuracy is 68.06249423736595%
+epoch 66 has passed in 0.724 minutes, accuracy is 68.08921404257481%
+epoch 67 has passed in 0.725 minutes, accuracy is 68.10859530973335%
+epoch 68 has passed in 0.724 minutes, accuracy is 68.13192809738052%
+epoch 69 has passed in 0.736 minutes, accuracy is 68.16071774665485%
+epoch 70 has passed in 0.737 minutes, accuracy is 68.19628143105255%
+epoch 71 has passed in 0.729 minutes, accuracy is 68.21792070991887%
+epoch 72 has passed in 0.726 minutes, accuracy is 68.23447946244268%
+epoch 73 has passed in 0.725 minutes, accuracy is 68.24106532992373%
+epoch 74 has passed in 0.72 minutes, accuracy is 68.25461340017048%
+epoch 75 has passed in 0.727 minutes, accuracy is 68.26477445285553%
+epoch 76 has passed in 0.721 minutes, accuracy is 68.2892362463566%
+epoch 77 has passed in 0.723 minutes, accuracy is 68.31012285465367%
+epoch 78 has passed in 0.721 minutes, accuracy is 68.32931595416989%
+epoch 79 has passed in 0.727 minutes, accuracy is 68.35453041824022%
+epoch 80 has passed in 0.72 minutes, accuracy is 68.37014833255243%
+epoch 81 has passed in 0.725 minutes, accuracy is 68.3921639467034%
+epoch 82 has passed in 0.725 minutes, accuracy is 68.41606123727752%
+epoch 83 has passed in 0.719 minutes, accuracy is 68.4348780015091%
+epoch 84 has passed in 0.724 minutes, accuracy is 68.45200125695985%
+epoch 85 has passed in 0.721 minutes, accuracy is 68.46761917127206%
+epoch 86 has passed in 0.722 minutes, accuracy is 68.47815655924177%
+epoch 87 has passed in 0.722 minutes, accuracy is 68.49339813826934%
+epoch 88 has passed in 0.725 minutes, accuracy is 68.51560192006262%
+epoch 89 has passed in 0.721 minutes, accuracy is 68.53178433730179%
+epoch 90 has passed in 0.725 minutes, accuracy is 68.55342361616812%
+epoch 91 has passed in 0.721 minutes, accuracy is 68.57186404511508%
+epoch 92 has passed in 0.723 minutes, accuracy is 68.5839067742233%
+epoch 93 has passed in 0.722 minutes, accuracy is 68.59011630641972%
+epoch 94 has passed in 0.723 minutes, accuracy is 68.60629872365888%
+epoch 95 has passed in 0.729 minutes, accuracy is 68.61796511748247%
+epoch 96 has passed in 0.724 minutes, accuracy is 68.62869067309447%
+epoch 97 has passed in 0.731 minutes, accuracy is 68.63941622870648%
+epoch 98 has passed in 0.725 minutes, accuracy is 68.65183529309932%
+epoch 99 has passed in 0.735 minutes, accuracy is 68.66782954269618%
+epoch 100 has passed in 0.722 minutes, accuracy is 68.68363562465072%
+epoch 101 has passed in 0.721 minutes, accuracy is 68.69605468904356%
+epoch 102 has passed in 0.722 minutes, accuracy is 68.71355427977895%
+epoch 103 has passed in 0.721 minutes, accuracy is 68.71976381197537%
+epoch 104 has passed in 0.722 minutes, accuracy is 68.74008591734548%
+epoch 105 has passed in 0.721 minutes, accuracy is 68.76021985507327%
+epoch 106 has passed in 0.723 minutes, accuracy is 68.77245075182381%
+epoch 107 has passed in 0.724 minutes, accuracy is 68.79390186304782%
+epoch 108 has passed in 0.728 minutes, accuracy is 68.8112132861409%
+epoch 109 has passed in 0.722 minutes, accuracy is 68.81704648305268%
+epoch 110 has passed in 0.692 minutes, accuracy is 68.83078272094174%
+epoch 111 has passed in 0.704 minutes, accuracy is 68.83962660013059%
+epoch 112 has passed in 0.695 minutes, accuracy is 68.8646528965586%
+epoch 113 has passed in 0.69 minutes, accuracy is 68.87895363737461%
+epoch 114 has passed in 0.692 minutes, accuracy is 68.87895363737461%
+epoch 115 has passed in 0.685 minutes, accuracy is 68.89156086940977%
+epoch 116 has passed in 0.685 minutes, accuracy is 68.90096925152557%
+epoch 117 has passed in 0.691 minutes, accuracy is 68.91809250697631%
+epoch 118 has passed in 0.694 minutes, accuracy is 68.92825355966139%
+epoch 119 has passed in 0.721 minutes, accuracy is 68.93803827706179%
+epoch 120 has passed in 0.723 minutes, accuracy is 68.95892488535887%
+epoch 121 has passed in 0.722 minutes, accuracy is 68.96551075283992%
+epoch 122 has passed in 0.72 minutes, accuracy is 68.98338667885993%
+epoch 123 has passed in 0.718 minutes, accuracy is 68.98677369642161%
+epoch 124 has passed in 0.72 minutes, accuracy is 68.99580574325277%
+epoch 125 has passed in 0.721 minutes, accuracy is 69.01010648406879%
+epoch 126 has passed in 0.731 minutes, accuracy is 69.02854691301575%
+epoch 127 has passed in 0.727 minutes, accuracy is 69.03438010992754%
+epoch 128 has passed in 0.734 minutes, accuracy is 69.0612880827787%
+epoch 129 has passed in 0.732 minutes, accuracy is 69.07238997367536%
+epoch 130 has passed in 0.726 minutes, accuracy is 69.0836800322143%
+epoch 131 has passed in 0.731 minutes, accuracy is 69.09760443774567%
+epoch 132 has passed in 0.902 minutes, accuracy is 69.11284601677326%
+epoch 133 has passed in 0.965 minutes, accuracy is 69.11453952555411%
+epoch 134 has passed in 0.75 minutes, accuracy is 69.13561430149349%
+epoch 135 has passed in 0.692 minutes, accuracy is 69.14238833661686%
+epoch 136 has passed in 0.65 minutes, accuracy is 69.1487860364556%
+epoch 137 has passed in 0.651 minutes, accuracy is 69.17098981824887%
+epoch 138 has passed in 0.658 minutes, accuracy is 69.18021003272236%
+epoch 139 has passed in 0.654 minutes, accuracy is 69.18547872670719%
+epoch 140 has passed in 0.673 minutes, accuracy is 69.19752145581542%
+epoch 141 has passed in 0.656 minutes, accuracy is 69.20636533500426%
+epoch 142 has passed in 0.654 minutes, accuracy is 69.22555843452048%
+epoch 143 has passed in 0.656 minutes, accuracy is 69.23195613435922%
+epoch 144 has passed in 0.659 minutes, accuracy is 69.24738588102912%
+epoch 145 has passed in 0.66 minutes, accuracy is 69.25453625143713%
+epoch 146 has passed in 0.656 minutes, accuracy is 69.27034233339167%
+epoch 147 has passed in 0.651 minutes, accuracy is 69.27674003323041%
+epoch 148 has passed in 0.655 minutes, accuracy is 69.27561102737651%
+epoch 149 has passed in 0.653 minutes, accuracy is 69.29066443876178%
+epoch 150 has passed in 0.652 minutes, accuracy is 69.30195449730073%
+0.7004043659175022
+0.7325251747070306
+getting accuracy
+50000 [0.28500890731811523, 0.4922557473182678, 0.22273530066013336] 1 2
+100000 [0.07932973653078079, 0.5720550417900085, 0.34861519932746887] 1 1
+150000 [0.036920446902513504, 0.7078149914741516, 0.2552645802497864] 1 1
+200000 [0.0759112536907196, 0.5384661555290222, 0.3856225609779358] 1 2
+250000 [0.2783638536930084, 0.5580820441246033, 0.1635541170835495] 1 0
+300000 [0.00020780519116669893, 0.08933095633983612, 0.9104611873626709] 2 2
+350000 [0.02394377626478672, 0.32721221446990967, 0.6488440036773682] 2 1
+400000 [0.5021647214889526, 0.47097247838974, 0.02686278335750103] 0 1
+450000 [0.34121328592300415, 0.5684223771095276, 0.09036439657211304] 1 1
+500000 [0.23173518478870392, 0.633818507194519, 0.13444630801677704] 1 1
+accuracy is 69.30195449730073%
+accuracy got in 0.26 minutes
+done in 145.0 minutes
+Fri Jan 28 23:29:49 2022
+Daniel trained. 
+
+[69.30195449730073]
+
+Process finished with exit code 0

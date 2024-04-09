@@ -1,0 +1,25 @@
+from fighter import Fighter
+from neural import Neural
+test = [[1, -3], [0, -2]]
+fighter = Fighter()
+print("test", fighter.get_data(test))
+
+'''neo = Neural(2, 4)
+print(neo)
+neo.data_smart_create([], 0, 0)
+x = neo.in_data
+print("data created")
+for i in x:
+    print(i)
+print(neo.length)'''
+
+neo = Neural(2, 2)
+neo.train()
+'''x = neo.in_data
+print("examples (1st 100)")
+for i in range(100):
+    print(x[i])
+print("and others...")'''
+
+print("done")
+

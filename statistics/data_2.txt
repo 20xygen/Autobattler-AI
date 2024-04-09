@@ -1,0 +1,272 @@
+import self as self
+import torch
+from torch.utils.data import TensorDataset, random_split, DataLoader
+from net import Net
+import numpy as np
+from fighter import Fighter
+import torch.nn as nn
+import torch.optim as optim
+from pytorch_lightning import Trainer
+
+
+# from torch import Trainer
+
+class Neural:
+    # field = []
+    device = 'cpu'
+    size = 0
+    in_data = []
+    out_data = []
+    length = 0
+    heigth = 0
+
+    def __init__(self, height, length):
+        # self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        # self.field = field
+        self.size = height * length
+        self.heigth = height
+        self.length = length
+        self.model = Net(self.size)
+        print("data making start")
+        self.create_data([])
+        # self.data_smart_create([], 0, 0)
+        print("data created")
+        print("fighting")
+        self.create_answers()
+        print("fighting ended")
+        self.in_np = np.array(self.in_data)
+        # print(len(self.in_data))
+        self.out_np = np.array(self.out_data)
+        # print(len(self.out_data))
+
+        print("checkpoint 1")
+
+        torch.manual_seed(42)
+        self.x_tensor = torch.from_numpy(self.in_np).float()
+        self.y_tensor = torch.from_numpy(self.out_np).long()
+
+        print("checkpoint 2")
+
+        # Builds dataset with ALL data
+        self.dataset = TensorDataset(self.x_tensor, self.y_tensor)
+        # Splits randomly into train and validation datasets
+
+        self.train_dataset, self.val_dataset = random_split(self.dataset, [1988, 413])
+        # int(len(self.in_data) * 0.9), len(self.in_data) - int(len(self.in_data) * 0.9)
+        # Builds a loader for each dataset to perform mini-batch gradient descent
+        self.train_loader = DataLoader(dataset=self.train_dataset, batch_size=14)
+        self.val_loader = DataLoader(dataset=self.val_dataset, batch_size=7)
+        self.accu_loader = DataLoader(dataset=self.dataset, batch_size=7)
+
+        print("checkpoint 3")
+
+        # Sets hyper-parameters
+        self.lr = 1e-3
+        self.n_epochs = 50
+
+        # Defines loss function and optimizer
+        self.loss_fn = nn.CrossEntropyLoss()
+
+        self.optimizer = optim.SGD(self.model.parameters(), lr=self.lr)
+
+        self.losses = []
+        self.val_losses = []
+        # Creates function to perform train step from model, loss and optimizer
+        # train_step = make_train_step(model, loss_fn, optimizer)
+        print("init ended")
+
+    def get_prediction(self, model, loss_fn, optimizer, x):
+        with torch.no_grad:
+            yhat = model(x)
+            pred = yhat.tolist().index(max(yhat.tolist()[0], yhat.tolist()[1], yhat.tolist()[2]))
+            return pred
+
+    def make_train_step(self, model, loss_fn, optimizer):
+        # Builds function that performs a step in the train loop
+        def train_step(x, y):
+            # Sets model to TRAIN mode
+            model.train()
+            # Makes predictions
+            yhat = model(x)
+            # Computes loss
+            print(y, torch.exp(yhat))
+            loss = loss_fn(yhat, y)
+            # Computes gradients
+            loss.backward()
+            # Updates parameters and zeroes gradients
+            optimizer.step()
+            optimizer.zero_grad()
+            # Returns the loss
+            return loss.item()
+
+        # Returns the function that will be called inside the train loop
+        return train_step
+
+    def train(self):
+        # trainer = Trainer()
+        # trainer.fit(self.model, self.train_loader, self.val_loader)
+        # Training loop
+        loss_function = nn.CrossEntropyLoss()
+
+        optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr)
+        train_step = self.make_train_step(self.model, loss_function, optimizer)
+        t = 0
+        for epoch in range(self.n_epochs):
+            # val_accuracy = []
+            # val_real = []
+            # val_predictions = []
+            t += 1
+            # Uses loader to fetch one mini-batch for training
+            for x_batch, y_batch in self.train_loader:
+                # NOW, sends the mini-batch data to the device
+                # so it matches location of the MODEL
+                # x_batch = x_batch.to(self.device)
+                # y_batch = y_batch.to(self.device)
+                # One stpe of training
+                # self.loss = trainer.train(x_batch, y_batch)
+                self.loss = train_step(x_batch, y_batch)
+                self.losses.append(self.loss)
+
+            # After finishing training steps for all mini-batches,
+            # it is time for evaluation!
+
+            # We tell PyTorch to NOT use autograd...
+            # Do you remember why?
+            with torch.no_grad():
+                print("epoch number", t)
+                # val_accuracy = []
+                # Uses loader to fetch one mini-batch for validation
+                for x_val, y_val in self.val_loader:
+                    # Again, sends data to same device as model
+                    # x_val = x_val.to(device)
+                    # y_val = y_val.to(device)
+
+                    # What is that?!
+                    # model.eval()
+                    # Makes predictions
+                    self.yhat = self.model(x_val)
+                    # Computes validation loss
+                    self.val_loss = self.loss_fn(self.yhat, y_val)
+                    self.val_losses.append(self.val_loss.item())
+
+                    '''# val accuracy
+                    val_batch = torch.exp(self.model(x_val)).tolist()
+                    val_predictions = []
+                    val_real = y_val.tolist()
+                    for i in range(len(val_batch)):
+                        val_predictions.append(val_batch[i].index(max(val_batch[i][0], val_batch[i][1], val_batch[i][2])))
+                        if val_predictions[i] == val_real[i]:
+                            val_accuracy.append(1)
+                        else:
+                            val_accuracy.append(0)
+
+                val_s = 0
+                for i in range(len(val_accuracy)):
+                    val_s += val_accuracy[i]
+                print("accuracy is ", val_s / len(val_accuracy) * 100, "%", sep="")'''
+
+        # print(model.state_dict())
+        print(np.mean(self.losses))
+        print(np.mean(self.val_losses))
+
+        accuracy = []
+        print("getting accuracy")
+        with torch.no_grad():
+            t = 0
+            for x_accu, y_accu in self.accu_loader:
+                batch = torch.exp(self.model(x_accu)).tolist()
+                predictions = []
+                real = y_accu.tolist()
+                for i in range(len(batch)):
+                    t += 1
+                    predictions.append(batch[i].index(max(batch[i][0], batch[i][1], batch[i][2])))
+                    if predictions[i] == real[i]:
+                        accuracy.append(1)
+                    else:
+                        accuracy.append(0)
+                    print(t, int(batch[i][0] * 100), int(batch[i][1] * 100), int(batch[i][2] * 100), predictions[i],
+                          real[i])
+                    '''m = 0
+                    p = -1
+                    for j in range(len(batch[i])):
+                        print(int(batch[i][j] * 100))
+                        if m < batch[i][j]:
+                            p = j
+                    predictions.append(p)'''
+
+                '''t += 1
+                self.yhat = self.model(x_accu)
+                list = torch.exp(self.yhat).tolist()
+                for i in range(len(list)):
+                    predict = list[i].index(max(list[i][0], list[i][1], list[i][2]))
+                    if predict == y_accu.tolist()[i]:
+                        accuracy.append(1)
+                    else:
+                        accuracy.append(0)
+                    print(t, x_accu.tolist()[i], predict, y_accu.tolist()[i])'''
+            s = 0
+            for i in range(len(accuracy)):
+                if i > 100:
+                    break
+                s += accuracy[i]
+            print("and others...")
+            print("accuracy is ", s / len(accuracy) * 100, "%", sep="")
+
+    def convert_field(self, field):
+        pole = []
+        for i in range(self.heigth):
+            a = []
+            for j in range(self.length):
+                a.append(field[i * self.length + j])
+            pole.append(a)
+        return pole
+
+    def create_data(self, arr):
+        if len(arr) == self.size:
+            self.in_data.append(arr)
+        else:
+            wordlist = [-3, -2, -1, 0, 1, 2, 3]
+            array = []
+            for i in range(len(wordlist)):
+                array = arr.copy()
+                array.append(wordlist[i])
+                self.create_data(array)
+                array = []
+
+    wordlist = [-3, -2, -1, 0, 1, 2, 3]
+
+    def data_smart_create(self, arr, y, x):
+        if x == 0 and y == 0:
+            self.in_data = []
+        if x == self.length:
+            x = 0
+            y += 1
+        # print(y, x)
+        if y == self.heigth:
+            self.in_data.append(arr)
+            # print(arr)
+        else:
+            if x <= max(0, int(self.length / 2 - 1)):
+                for i in range(4, 7):
+                    array = arr.copy()
+                    array.append(self.wordlist[i])
+                    self.data_smart_create(array, y, x + 1)
+            elif x >= min(self.length - 1, int((self.length + 1) / 2)):
+                for i in range(3):
+                    array = arr.copy()
+                    array.append(self.wordlist[i])
+                    self.data_smart_create(array, y, x + 1)
+            else:
+                array = arr.copy()
+                array.append(self.wordlist[3])
+                self.data_smart_create(array, y, x + 1)
+
+    def create_answers(self):
+        fighter = Fighter()
+        print(len(self.in_data))
+        for i in range(len(self.in_data)):
+            if i % 1000 == 0:
+                print(i)
+            pole = self.convert_field(self.in_data[i])
+            self.out_data.append(fighter.get_data(pole))
+        print("answers created")

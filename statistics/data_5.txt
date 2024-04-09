@@ -1,0 +1,2197 @@
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\python.exe C:/Users/DenBa/PycharmProjects/1/new_main.py
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\lib\site-packages\setuptools\distutils_patch.py:25: UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+  warnings.warn(
+The name of this net is Test. It starts initialisation. Tue Jan 25 18:21:32 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.675 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.4 minutes
+531441
+net inited in  0.0007 minutes
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+epoch 1 has passed in 0.776 minutes
+epoch 2 has passed in 0.722 minutes
+epoch 3 has passed in 0.774 minutes
+epoch 4 has passed in 0.759 minutes
+epoch 5 has passed in 0.766 minutes
+epoch 6 has passed in 0.757 minutes
+epoch 7 has passed in 0.751 minutes
+epoch 8 has passed in 0.781 minutes
+epoch 9 has passed in 0.767 minutes
+epoch 10 has passed in 0.781 minutes
+0.7139940572503632
+0.7233781258450318
+getting accuracy
+50000 [0.3004592955112457, 0.4524098038673401, 0.24713082611560822] 1 2
+100000 [0.1054503470659256, 0.4583037197589874, 0.436245858669281] 1 1
+150000 [0.0874972715973854, 0.4887300133705139, 0.4237727224826813] 1 1
+200000 [0.035149309784173965, 0.4214023947715759, 0.543448269367218] 2 2
+250000 [0.34075313806533813, 0.5689380168914795, 0.09030880779027939] 1 0
+300000 [0.00020537400268949568, 0.15600080788135529, 0.8437938094139099] 2 2
+350000 [0.04406542330980301, 0.625583291053772, 0.3303512632846832] 1 1
+400000 [0.3805600106716156, 0.4911530613899231, 0.12828698754310608] 1 1
+450000 [0.2865990698337555, 0.6604564189910889, 0.05294445902109146] 1 1
+500000 [0.1794459968805313, 0.6812106370925903, 0.1393432468175888] 1 1
+accuracy is 68.71731763262527%
+accuracy got in 0.24 minutes
+done in 11.0 minutes
+Tue Jan 25 18:32:30 2022
+Test trained. 
+
+The name of this net is Alice. It starts initialisation. Tue Jan 25 18:32:30 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.676 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.395 minutes
+531441
+net inited in  0.0006 minutes
+epoch 1 has passed in 0.729 minutes
+epoch 2 has passed in 0.728 minutes
+epoch 3 has passed in 0.766 minutes
+epoch 4 has passed in 0.784 minutes
+epoch 5 has passed in 0.801 minutes
+epoch 6 has passed in 0.8 minutes
+epoch 7 has passed in 0.792 minutes
+epoch 8 has passed in 0.793 minutes
+epoch 9 has passed in 0.798 minutes
+epoch 10 has passed in 0.796 minutes
+epoch 11 has passed in 0.796 minutes
+epoch 12 has passed in 0.795 minutes
+epoch 13 has passed in 0.742 minutes
+epoch 14 has passed in 0.724 minutes
+epoch 15 has passed in 0.727 minutes
+epoch 16 has passed in 0.728 minutes
+epoch 17 has passed in 0.735 minutes
+epoch 18 has passed in 0.733 minutes
+epoch 19 has passed in 0.737 minutes
+epoch 20 has passed in 0.737 minutes
+epoch 21 has passed in 0.743 minutes
+epoch 22 has passed in 0.744 minutes
+epoch 23 has passed in 0.752 minutes
+epoch 24 has passed in 0.756 minutes
+epoch 25 has passed in 0.763 minutes
+epoch 26 has passed in 0.766 minutes
+epoch 27 has passed in 0.763 minutes
+epoch 28 has passed in 0.78 minutes
+epoch 29 has passed in 0.776 minutes
+epoch 30 has passed in 0.771 minutes
+epoch 31 has passed in 0.77 minutes
+epoch 32 has passed in 0.77 minutes
+epoch 33 has passed in 0.773 minutes
+epoch 34 has passed in 0.78 minutes
+epoch 35 has passed in 0.78 minutes
+epoch 36 has passed in 0.784 minutes
+epoch 37 has passed in 0.787 minutes
+epoch 38 has passed in 0.794 minutes
+epoch 39 has passed in 0.799 minutes
+epoch 40 has passed in 0.797 minutes
+epoch 41 has passed in 0.791 minutes
+epoch 42 has passed in 0.803 minutes
+epoch 43 has passed in 0.797 minutes
+epoch 44 has passed in 0.794 minutes
+epoch 45 has passed in 0.797 minutes
+epoch 46 has passed in 0.795 minutes
+epoch 47 has passed in 0.797 minutes
+epoch 48 has passed in 0.795 minutes
+epoch 49 has passed in 0.81 minutes
+epoch 50 has passed in 0.812 minutes
+0.687723127297323
+0.7181967856246496
+getting accuracy
+50000 [0.23209506273269653, 0.6289663910865784, 0.13893862068653107] 1 2
+100000 [0.008185704238712788, 0.43781596422195435, 0.5539982914924622] 2 1
+150000 [0.19428305327892303, 0.4880448281764984, 0.31767213344573975] 1 1
+200000 [0.10737983882427216, 0.49374207854270935, 0.3988780379295349] 1 2
+250000 [0.5423946976661682, 0.43244606256484985, 0.02515927329659462] 0 0
+300000 [1.2424268334143562e-06, 0.02276901714503765, 0.9772297739982605] 2 2
+350000 [0.04228515923023224, 0.5591083765029907, 0.398606538772583] 1 1
+400000 [0.20664407312870026, 0.7198525667190552, 0.07350341975688934] 1 1
+450000 [0.24550902843475342, 0.6992538571357727, 0.05523717403411865] 1 1
+500000 [0.13584353029727936, 0.808403730392456, 0.05575278401374817] 1 1
+accuracy is 69.05451404765533%
+accuracy got in 0.23 minutes
+done in 42.0 minutes
+Tue Jan 25 19:14:30 2022
+Alice trained. 
+
+epoch 1 has passed in 0.681 minutes
+epoch 2 has passed in 0.68 minutes
+epoch 3 has passed in 0.677 minutes
+epoch 4 has passed in 0.691 minutes
+epoch 5 has passed in 0.69 minutes
+epoch 6 has passed in 0.696 minutes
+epoch 7 has passed in 0.685 minutes
+epoch 8 has passed in 0.68 minutes
+epoch 9 has passed in 0.684 minutes
+epoch 10 has passed in 0.681 minutes
+epoch 11 has passed in 0.685 minutes
+epoch 12 has passed in 0.687 minutes
+epoch 13 has passed in 0.685 minutes
+epoch 14 has passed in 0.686 minutes
+epoch 15 has passed in 0.688 minutes
+epoch 16 has passed in 0.69 minutes
+epoch 17 has passed in 0.696 minutes
+epoch 18 has passed in 0.769 minutes
+epoch 19 has passed in 0.718 minutes
+epoch 20 has passed in 0.73 minutes
+epoch 21 has passed in 0.726 minutes
+epoch 22 has passed in 0.721 minutes
+epoch 23 has passed in 0.714 minutes
+epoch 24 has passed in 0.715 minutes
+epoch 25 has passed in 0.722 minutes
+epoch 26 has passed in 0.729 minutes
+epoch 27 has passed in 0.73 minutes
+epoch 28 has passed in 0.731 minutes
+epoch 29 has passed in 0.727 minutes
+epoch 30 has passed in 0.746 minutes
+epoch 31 has passed in 0.719 minutes
+epoch 32 has passed in 0.718 minutes
+epoch 33 has passed in 0.702 minutes
+epoch 34 has passed in 0.701 minutes
+epoch 35 has passed in 0.704 minutes
+epoch 36 has passed in 0.705 minutes
+epoch 37 has passed in 0.716 minutes
+epoch 38 has passed in 0.713 minutes
+epoch 39 has passed in 0.702 minutes
+epoch 40 has passed in 0.692 minutes
+epoch 41 has passed in 0.715 minutes
+epoch 42 has passed in 0.727 minutes
+epoch 43 has passed in 0.711 minutes
+epoch 44 has passed in 0.722 minutes
+epoch 45 has passed in 0.827 minutes
+epoch 46 has passed in 0.746 minutes
+epoch 47 has passed in 0.745 minutes
+epoch 48 has passed in 0.761 minutes
+epoch 49 has passed in 0.74 minutes
+epoch 50 has passed in 0.731 minutes
+0.6853842688785979
+0.722417342507718
+getting accuracy
+50000 [0.19469790160655975, 0.48019859194755554, 0.3251034915447235] 1 2
+100000 [0.024044523015618324, 0.5501383543014526, 0.4258171319961548] 1 1
+150000 [0.18422962725162506, 0.4861113727092743, 0.32965898513793945] 1 1
+200000 [0.17878177762031555, 0.44029220938682556, 0.3809260427951813] 1 2
+250000 [0.5540006160736084, 0.42492958903312683, 0.021069835871458054] 0 0
+300000 [1.3516429362425697e-06, 0.1071927547454834, 0.8928059339523315] 2 2
+350000 [0.05370336025953293, 0.537037193775177, 0.40925946831703186] 1 1
+400000 [0.35301217436790466, 0.6259088516235352, 0.021078919991850853] 1 1
+450000 [0.27508261799812317, 0.5758338570594788, 0.14908349514007568] 1 1
+500000 [0.17564916610717773, 0.7169306874275208, 0.1074201688170433] 1 1
+accuracy is 69.15160855109033%
+accuracy got in 0.23 minutes
+done in 77.9 minutes
+Tue Jan 25 19:50:23 2022
+Alice trained. 
+
+The name of this net is Alex. It starts initialisation. Tue Jan 25 19:50:23 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.686 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.392 minutes
+531441
+net inited in  0.0006 minutes
+epoch 1 has passed in 0.7 minutes
+epoch 2 has passed in 0.696 minutes
+epoch 3 has passed in 0.733 minutes
+epoch 4 has passed in 0.75 minutes
+epoch 5 has passed in 0.743 minutes
+epoch 6 has passed in 0.764 minutes
+epoch 7 has passed in 0.759 minutes
+epoch 8 has passed in 0.762 minutes
+epoch 9 has passed in 0.755 minutes
+epoch 10 has passed in 0.762 minutes
+epoch 11 has passed in 0.766 minutes
+epoch 12 has passed in 0.751 minutes
+epoch 13 has passed in 0.759 minutes
+epoch 14 has passed in 0.746 minutes
+epoch 15 has passed in 0.742 minutes
+epoch 16 has passed in 0.744 minutes
+epoch 17 has passed in 0.752 minutes
+epoch 18 has passed in 0.761 minutes
+epoch 19 has passed in 0.75 minutes
+epoch 20 has passed in 0.756 minutes
+epoch 21 has passed in 0.76 minutes
+epoch 22 has passed in 0.757 minutes
+epoch 23 has passed in 0.761 minutes
+epoch 24 has passed in 0.768 minutes
+epoch 25 has passed in 0.772 minutes
+epoch 26 has passed in 0.835 minutes
+epoch 27 has passed in 0.9 minutes
+epoch 28 has passed in 0.813 minutes
+epoch 29 has passed in 0.808 minutes
+epoch 30 has passed in 0.812 minutes
+epoch 31 has passed in 0.81 minutes
+epoch 32 has passed in 0.816 minutes
+epoch 33 has passed in 0.828 minutes
+epoch 34 has passed in 0.822 minutes
+epoch 35 has passed in 0.839 minutes
+epoch 36 has passed in 0.817 minutes
+epoch 37 has passed in 0.824 minutes
+epoch 38 has passed in 0.841 minutes
+epoch 39 has passed in 0.844 minutes
+epoch 40 has passed in 0.808 minutes
+epoch 41 has passed in 0.795 minutes
+epoch 42 has passed in 0.798 minutes
+epoch 43 has passed in 0.796 minutes
+epoch 44 has passed in 0.798 minutes
+epoch 45 has passed in 0.797 minutes
+epoch 46 has passed in 0.798 minutes
+epoch 47 has passed in 0.802 minutes
+epoch 48 has passed in 0.8 minutes
+epoch 49 has passed in 0.8 minutes
+epoch 50 has passed in 0.804 minutes
+epoch 51 has passed in 0.802 minutes
+epoch 52 has passed in 0.806 minutes
+epoch 53 has passed in 0.817 minutes
+epoch 54 has passed in 0.826 minutes
+epoch 55 has passed in 0.821 minutes
+epoch 56 has passed in 0.822 minutes
+epoch 57 has passed in 0.828 minutes
+epoch 58 has passed in 0.806 minutes
+epoch 59 has passed in 0.804 minutes
+epoch 60 has passed in 0.805 minutes
+epoch 61 has passed in 0.811 minutes
+epoch 62 has passed in 0.824 minutes
+epoch 63 has passed in 0.826 minutes
+epoch 64 has passed in 0.826 minutes
+epoch 65 has passed in 6.165 minutes
+epoch 66 has passed in 1.115 minutes
+epoch 67 has passed in 1.153 minutes
+epoch 68 has passed in 1.171 minutes
+epoch 69 has passed in 1.159 minutes
+epoch 70 has passed in 1.084 minutes
+epoch 71 has passed in 1.151 minutes
+epoch 72 has passed in 1.15 minutes
+epoch 73 has passed in 1.003 minutes
+epoch 74 has passed in 0.842 minutes
+epoch 75 has passed in 0.921 minutes
+epoch 76 has passed in 0.907 minutes
+epoch 77 has passed in 0.854 minutes
+epoch 78 has passed in 0.851 minutes
+epoch 79 has passed in 0.856 minutes
+epoch 80 has passed in 0.874 minutes
+epoch 81 has passed in 0.869 minutes
+epoch 82 has passed in 0.864 minutes
+epoch 83 has passed in 0.856 minutes
+epoch 84 has passed in 0.863 minutes
+epoch 85 has passed in 0.867 minutes
+epoch 86 has passed in 0.861 minutes
+epoch 87 has passed in 0.852 minutes
+epoch 88 has passed in 0.869 minutes
+epoch 89 has passed in 0.859 minutes
+epoch 90 has passed in 0.857 minutes
+epoch 91 has passed in 0.853 minutes
+epoch 92 has passed in 0.861 minutes
+epoch 93 has passed in 0.86 minutes
+epoch 94 has passed in 0.876 minutes
+epoch 95 has passed in 0.998 minutes
+epoch 96 has passed in 0.899 minutes
+epoch 97 has passed in 0.852 minutes
+epoch 98 has passed in 0.857 minutes
+epoch 99 has passed in 0.866 minutes
+epoch 100 has passed in 0.858 minutes
+0.6837323481594487
+0.742383434499705
+getting accuracy
+50000 [0.22789698839187622, 0.5187930464744568, 0.2533099949359894] 1 2
+100000 [0.060187745839357376, 0.7500560283660889, 0.18975621461868286] 1 1
+150000 [0.0789937674999237, 0.5976867079734802, 0.3233194649219513] 1 1
+200000 [0.06616076081991196, 0.6280879378318787, 0.30575132369995117] 1 2
+250000 [0.46671876311302185, 0.47553130984306335, 0.0577499195933342] 1 0
+300000 [3.603578807087615e-05, 0.09090340882539749, 0.909060537815094] 2 2
+350000 [0.10550642758607864, 0.49153655767440796, 0.4029569923877716] 1 1
+400000 [0.1750371903181076, 0.7968791127204895, 0.02808372490108013] 1 1
+450000 [0.3019333779811859, 0.6795756816864014, 0.018490899354219437] 1 1
+500000 [0.16621887683868408, 0.6952190399169922, 0.13856203854084015] 1 1
+accuracy is 68.97680081137887%
+accuracy got in 0.23 minutes
+done in 92.6 minutes
+Tue Jan 25 21:22:59 2022
+Alex trained. 
+
+epoch 1 has passed in 0.708 minutes
+epoch 2 has passed in 0.709 minutes
+epoch 3 has passed in 0.709 minutes
+epoch 4 has passed in 0.714 minutes
+epoch 5 has passed in 0.72 minutes
+epoch 6 has passed in 0.721 minutes
+epoch 7 has passed in 0.737 minutes
+epoch 8 has passed in 0.74 minutes
+epoch 9 has passed in 0.726 minutes
+epoch 10 has passed in 0.736 minutes
+epoch 11 has passed in 0.733 minutes
+epoch 12 has passed in 0.727 minutes
+epoch 13 has passed in 0.739 minutes
+epoch 14 has passed in 0.733 minutes
+epoch 15 has passed in 0.724 minutes
+epoch 16 has passed in 0.73 minutes
+epoch 17 has passed in 0.734 minutes
+epoch 18 has passed in 0.739 minutes
+epoch 19 has passed in 0.746 minutes
+epoch 20 has passed in 0.738 minutes
+epoch 21 has passed in 0.728 minutes
+epoch 22 has passed in 0.726 minutes
+epoch 23 has passed in 0.741 minutes
+epoch 24 has passed in 0.724 minutes
+epoch 25 has passed in 0.76 minutes
+epoch 26 has passed in 0.758 minutes
+epoch 27 has passed in 0.765 minutes
+epoch 28 has passed in 0.748 minutes
+epoch 29 has passed in 0.764 minutes
+epoch 30 has passed in 0.831 minutes
+epoch 31 has passed in 0.814 minutes
+epoch 32 has passed in 0.784 minutes
+epoch 33 has passed in 0.822 minutes
+epoch 34 has passed in 0.833 minutes
+epoch 35 has passed in 0.806 minutes
+epoch 36 has passed in 0.81 minutes
+epoch 37 has passed in 0.805 minutes
+epoch 38 has passed in 0.845 minutes
+epoch 39 has passed in 0.824 minutes
+epoch 40 has passed in 0.821 minutes
+epoch 41 has passed in 0.809 minutes
+epoch 42 has passed in 0.813 minutes
+epoch 43 has passed in 0.816 minutes
+epoch 44 has passed in 0.831 minutes
+epoch 45 has passed in 0.816 minutes
+epoch 46 has passed in 0.822 minutes
+epoch 47 has passed in 0.815 minutes
+epoch 48 has passed in 0.81 minutes
+epoch 49 has passed in 0.821 minutes
+epoch 50 has passed in 0.828 minutes
+epoch 51 has passed in 0.818 minutes
+epoch 52 has passed in 0.815 minutes
+epoch 53 has passed in 0.83 minutes
+epoch 54 has passed in 0.818 minutes
+epoch 55 has passed in 0.811 minutes
+epoch 56 has passed in 0.821 minutes
+epoch 57 has passed in 0.801 minutes
+epoch 58 has passed in 0.814 minutes
+epoch 59 has passed in 0.816 minutes
+epoch 60 has passed in 0.836 minutes
+epoch 61 has passed in 0.822 minutes
+epoch 62 has passed in 0.826 minutes
+epoch 63 has passed in 0.821 minutes
+epoch 64 has passed in 0.826 minutes
+epoch 65 has passed in 0.819 minutes
+epoch 66 has passed in 0.798 minutes
+epoch 67 has passed in 0.808 minutes
+epoch 68 has passed in 0.8 minutes
+epoch 69 has passed in 0.802 minutes
+epoch 70 has passed in 0.803 minutes
+epoch 71 has passed in 0.788 minutes
+epoch 72 has passed in 0.797 minutes
+epoch 73 has passed in 0.798 minutes
+epoch 74 has passed in 0.805 minutes
+epoch 75 has passed in 0.807 minutes
+epoch 76 has passed in 0.804 minutes
+epoch 77 has passed in 0.794 minutes
+epoch 78 has passed in 0.733 minutes
+epoch 79 has passed in 0.769 minutes
+epoch 80 has passed in 0.776 minutes
+epoch 81 has passed in 0.786 minutes
+epoch 82 has passed in 0.909 minutes
+epoch 83 has passed in 1.057 minutes
+epoch 84 has passed in 1.045 minutes
+epoch 85 has passed in 0.755 minutes
+epoch 86 has passed in 0.796 minutes
+epoch 87 has passed in 0.794 minutes
+epoch 88 has passed in 0.746 minutes
+epoch 89 has passed in 0.755 minutes
+epoch 90 has passed in 0.748 minutes
+epoch 91 has passed in 0.75 minutes
+epoch 92 has passed in 0.749 minutes
+epoch 93 has passed in 0.755 minutes
+epoch 94 has passed in 0.755 minutes
+epoch 95 has passed in 0.754 minutes
+epoch 96 has passed in 0.756 minutes
+epoch 97 has passed in 0.756 minutes
+epoch 98 has passed in 0.75 minutes
+epoch 99 has passed in 0.736 minutes
+epoch 100 has passed in 0.737 minutes
+0.6832405298098186
+0.7609962277014065
+getting accuracy
+50000 [0.23227618634700775, 0.48056983947753906, 0.287153959274292] 1 2
+100000 [0.10748216509819031, 0.6220613718032837, 0.2704564332962036] 1 1
+150000 [0.00018787497538141906, 0.21291673183441162, 0.7868953943252563] 2 1
+200000 [0.10282425582408905, 0.7085511088371277, 0.18862463533878326] 1 2
+250000 [0.38490086793899536, 0.5564867854118347, 0.05861235037446022] 1 0
+300000 [1.730413856648738e-08, 0.02564476802945137, 0.9743552207946777] 2 2
+350000 [0.0666515976190567, 0.7567806243896484, 0.17656779289245605] 1 1
+400000 [0.40116816759109497, 0.5728692412376404, 0.025962600484490395] 1 1
+450000 [0.3381038010120392, 0.652241587638855, 0.009654618799686432] 1 1
+500000 [0.21525253355503082, 0.724918782711029, 0.05982865393161774] 1 1
+accuracy is 69.45813364042293%
+accuracy got in 0.24 minutes
+done in 171.4 minutes
+Tue Jan 25 22:41:45 2022
+Alex trained. 
+
+The name of this net is Dany. It starts initialisation. Tue Jan 25 22:41:45 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.7 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.409 minutes
+531441
+net inited in  0.0009 minutes
+epoch 1 has passed in 0.725 minutes
+epoch 2 has passed in 0.73 minutes
+epoch 3 has passed in 0.733 minutes
+epoch 4 has passed in 0.738 minutes
+epoch 5 has passed in 0.744 minutes
+epoch 6 has passed in 0.742 minutes
+epoch 7 has passed in 0.749 minutes
+epoch 8 has passed in 0.747 minutes
+epoch 9 has passed in 0.748 minutes
+epoch 10 has passed in 0.745 minutes
+epoch 11 has passed in 0.759 minutes
+epoch 12 has passed in 0.72 minutes
+epoch 13 has passed in 0.691 minutes
+epoch 14 has passed in 0.691 minutes
+epoch 15 has passed in 0.689 minutes
+epoch 16 has passed in 0.688 minutes
+epoch 17 has passed in 0.687 minutes
+epoch 18 has passed in 0.685 minutes
+epoch 19 has passed in 0.688 minutes
+epoch 20 has passed in 0.686 minutes
+epoch 21 has passed in 0.695 minutes
+epoch 22 has passed in 0.684 minutes
+epoch 23 has passed in 0.689 minutes
+epoch 24 has passed in 0.686 minutes
+epoch 25 has passed in 0.686 minutes
+epoch 26 has passed in 0.685 minutes
+epoch 27 has passed in 0.688 minutes
+epoch 28 has passed in 0.686 minutes
+epoch 29 has passed in 0.719 minutes
+epoch 30 has passed in 0.729 minutes
+epoch 31 has passed in 0.727 minutes
+epoch 32 has passed in 0.714 minutes
+epoch 33 has passed in 0.707 minutes
+epoch 34 has passed in 0.714 minutes
+epoch 35 has passed in 0.714 minutes
+epoch 36 has passed in 0.716 minutes
+epoch 37 has passed in 0.716 minutes
+epoch 38 has passed in 0.72 minutes
+epoch 39 has passed in 0.727 minutes
+epoch 40 has passed in 0.731 minutes
+epoch 41 has passed in 0.719 minutes
+epoch 42 has passed in 0.71 minutes
+epoch 43 has passed in 0.711 minutes
+epoch 44 has passed in 0.709 minutes
+epoch 45 has passed in 0.716 minutes
+epoch 46 has passed in 0.714 minutes
+epoch 47 has passed in 0.714 minutes
+epoch 48 has passed in 0.722 minutes
+epoch 49 has passed in 0.712 minutes
+epoch 50 has passed in 0.714 minutes
+epoch 51 has passed in 0.723 minutes
+epoch 52 has passed in 0.705 minutes
+epoch 53 has passed in 0.703 minutes
+epoch 54 has passed in 0.711 minutes
+epoch 55 has passed in 0.709 minutes
+epoch 56 has passed in 0.711 minutes
+epoch 57 has passed in 0.713 minutes
+epoch 58 has passed in 0.718 minutes
+epoch 59 has passed in 0.707 minutes
+epoch 60 has passed in 0.697 minutes
+epoch 61 has passed in 0.7 minutes
+epoch 62 has passed in 0.703 minutes
+epoch 63 has passed in 0.703 minutes
+epoch 64 has passed in 0.702 minutes
+epoch 65 has passed in 0.7 minutes
+epoch 66 has passed in 0.714 minutes
+epoch 67 has passed in 0.718 minutes
+epoch 68 has passed in 0.721 minutes
+epoch 69 has passed in 0.706 minutes
+epoch 70 has passed in 0.706 minutes
+epoch 71 has passed in 0.702 minutes
+epoch 72 has passed in 0.699 minutes
+epoch 73 has passed in 0.7 minutes
+epoch 74 has passed in 0.7 minutes
+epoch 75 has passed in 0.704 minutes
+epoch 76 has passed in 0.699 minutes
+epoch 77 has passed in 0.687 minutes
+epoch 78 has passed in 0.682 minutes
+epoch 79 has passed in 0.678 minutes
+epoch 80 has passed in 0.691 minutes
+epoch 81 has passed in 0.688 minutes
+epoch 82 has passed in 0.702 minutes
+epoch 83 has passed in 0.721 minutes
+epoch 84 has passed in 0.703 minutes
+epoch 85 has passed in 0.712 minutes
+epoch 86 has passed in 0.707 minutes
+epoch 87 has passed in 0.701 minutes
+epoch 88 has passed in 0.708 minutes
+epoch 89 has passed in 0.712 minutes
+epoch 90 has passed in 0.707 minutes
+epoch 91 has passed in 0.701 minutes
+epoch 92 has passed in 0.72 minutes
+epoch 93 has passed in 0.716 minutes
+epoch 94 has passed in 0.723 minutes
+epoch 95 has passed in 0.708 minutes
+epoch 96 has passed in 0.701 minutes
+epoch 97 has passed in 0.681 minutes
+epoch 98 has passed in 0.686 minutes
+epoch 99 has passed in 0.691 minutes
+epoch 100 has passed in 0.691 minutes
+0.6524218975194707
+0.701624014563753
+getting accuracy
+50000 [0.16034455597400665, 0.3258894085884094, 0.5137660503387451] 2 2
+100000 [0.14543335139751434, 0.4153299629688263, 0.43923667073249817] 2 1
+150000 [0.0792483314871788, 0.8251296281814575, 0.09562201052904129] 1 1
+200000 [0.17890556156635284, 0.27273812890052795, 0.5483563542366028] 2 2
+250000 [0.5170004963874817, 0.4044167101383209, 0.07858274132013321] 0 0
+300000 [3.194375312887132e-05, 0.1378520280122757, 0.8621160387992859] 2 2
+350000 [0.03461720421910286, 0.4400362968444824, 0.5253464579582214] 2 1
+400000 [0.3317922353744507, 0.646779477596283, 0.021428395062685013] 1 1
+450000 [0.39395979046821594, 0.5879096984863281, 0.018130537122488022] 1 1
+500000 [0.16331854462623596, 0.7458994388580322, 0.09078207612037659] 1 1
+accuracy is 71.26360216844391%
+accuracy got in 0.24 minutes
+done in 74.2 minutes
+Tue Jan 25 23:55:59 2022
+Dany trained. 
+
+The name of this net is Bob. It starts initialisation. Wed Jan 26 00:45:39 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.666 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.483 minutes
+531441
+net inited in  0.0007 minutes
+epoch 1 has passed in 0.675 minutes
+epoch 2 has passed in 0.678 minutes
+epoch 3 has passed in 0.681 minutes
+epoch 4 has passed in 0.685 minutes
+epoch 5 has passed in 0.693 minutes
+epoch 6 has passed in 0.69 minutes
+epoch 7 has passed in 0.672 minutes
+epoch 8 has passed in 0.667 minutes
+epoch 9 has passed in 0.663 minutes
+epoch 10 has passed in 0.663 minutes
+epoch 11 has passed in 0.66 minutes
+epoch 12 has passed in 0.658 minutes
+epoch 13 has passed in 0.66 minutes
+epoch 14 has passed in 0.658 minutes
+epoch 15 has passed in 0.664 minutes
+epoch 16 has passed in 0.666 minutes
+epoch 17 has passed in 0.697 minutes
+epoch 18 has passed in 0.69 minutes
+epoch 19 has passed in 0.685 minutes
+epoch 20 has passed in 0.687 minutes
+epoch 21 has passed in 0.684 minutes
+epoch 22 has passed in 0.683 minutes
+epoch 23 has passed in 0.691 minutes
+epoch 24 has passed in 0.686 minutes
+epoch 25 has passed in 0.686 minutes
+epoch 26 has passed in 0.685 minutes
+epoch 27 has passed in 0.685 minutes
+epoch 28 has passed in 0.69 minutes
+epoch 29 has passed in 0.688 minutes
+epoch 30 has passed in 785.204 minutes
+epoch 31 has passed in 0.856 minutes
+epoch 32 has passed in 0.72 minutes
+epoch 33 has passed in 0.703 minutes
+epoch 34 has passed in 0.7 minutes
+epoch 35 has passed in 0.69 minutes
+epoch 36 has passed in 0.691 minutes
+epoch 37 has passed in 0.724 minutes
+epoch 38 has passed in 0.739 minutes
+epoch 39 has passed in 0.743 minutes
+epoch 40 has passed in 0.7 minutes
+epoch 41 has passed in 0.699 minutes
+epoch 42 has passed in 0.696 minutes
+epoch 43 has passed in 0.716 minutes
+epoch 44 has passed in 0.743 minutes
+epoch 45 has passed in 0.714 minutes
+epoch 46 has passed in 0.697 minutes
+epoch 47 has passed in 0.703 minutes
+epoch 48 has passed in 0.699 minutes
+epoch 49 has passed in 0.702 minutes
+epoch 50 has passed in 0.702 minutes
+epoch 51 has passed in 0.707 minutes
+epoch 52 has passed in 0.706 minutes
+epoch 53 has passed in 0.705 minutes
+epoch 54 has passed in 0.721 minutes
+epoch 55 has passed in 0.708 minutes
+epoch 56 has passed in 0.702 minutes
+epoch 57 has passed in 0.702 minutes
+epoch 58 has passed in 0.699 minutes
+epoch 59 has passed in 0.686 minutes
+epoch 60 has passed in 0.701 minutes
+epoch 61 has passed in 0.687 minutes
+epoch 62 has passed in 0.688 minutes
+epoch 63 has passed in 0.681 minutes
+epoch 64 has passed in 0.676 minutes
+epoch 65 has passed in 0.678 minutes
+epoch 66 has passed in 0.675 minutes
+epoch 67 has passed in 0.678 minutes
+epoch 68 has passed in 0.676 minutes
+epoch 69 has passed in 0.679 minutes
+epoch 70 has passed in 0.676 minutes
+epoch 71 has passed in 0.694 minutes
+epoch 72 has passed in 0.694 minutes
+epoch 73 has passed in 0.717 minutes
+epoch 74 has passed in 0.676 minutes
+epoch 75 has passed in 0.687 minutes
+epoch 76 has passed in 0.679 minutes
+epoch 77 has passed in 0.677 minutes
+epoch 78 has passed in 0.675 minutes
+epoch 79 has passed in 0.676 minutes
+epoch 80 has passed in 0.675 minutes
+epoch 81 has passed in 0.681 minutes
+epoch 82 has passed in 0.683 minutes
+epoch 83 has passed in 0.683 minutes
+epoch 84 has passed in 0.68 minutes
+epoch 85 has passed in 0.677 minutes
+epoch 86 has passed in 0.696 minutes
+epoch 87 has passed in 0.686 minutes
+epoch 88 has passed in 0.675 minutes
+epoch 89 has passed in 0.678 minutes
+epoch 90 has passed in 0.678 minutes
+epoch 91 has passed in 0.698 minutes
+epoch 92 has passed in 0.684 minutes
+epoch 93 has passed in 0.672 minutes
+epoch 94 has passed in 0.679 minutes
+epoch 95 has passed in 0.741 minutes
+epoch 96 has passed in 0.781 minutes
+epoch 97 has passed in 0.866 minutes
+epoch 98 has passed in 0.864 minutes
+epoch 99 has passed in 0.797 minutes
+epoch 100 has passed in 0.772 minutes
+0.6515524386233789
+0.6993571875814175
+getting accuracy
+50000 [0.1743791401386261, 0.4616411030292511, 0.363979697227478] 1 2
+100000 [0.05880960449576378, 0.5474640727043152, 0.3937263786792755] 1 1
+150000 [0.18961921334266663, 0.6629170775413513, 0.14746375381946564] 1 1
+200000 [0.03114340826869011, 0.29720354080200195, 0.6716530323028564] 2 2
+250000 [0.2662423849105835, 0.5924904346466064, 0.14126715064048767] 1 0
+300000 [0.0013960617361590266, 0.022831862792372704, 0.9757720828056335] 2 2
+350000 [0.12125278264284134, 0.4983215928077698, 0.3804256319999695] 1 1
+400000 [0.2861383557319641, 0.6912354230880737, 0.022626163437962532] 1 1
+450000 [0.24064435064792633, 0.611637532711029, 0.14771811664104462] 1 1
+500000 [0.09850500524044037, 0.8315232992172241, 0.06997174769639969] 1 1
+accuracy is 71.24045754843905%
+accuracy got in 0.26 minutes
+done in 857.7 minutes
+Wed Jan 26 15:03:21 2022
+Bob trained. 
+
+The name of this net is Tomas. It starts initialisation. Wed Jan 26 15:03:21 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.703 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.484 minutes
+531441
+net inited in  0.0008 minutes
+epoch 1 has passed in 0.769 minutes
+epoch 2 has passed in 0.799 minutes
+epoch 3 has passed in 0.809 minutes
+epoch 4 has passed in 0.791 minutes
+epoch 5 has passed in 0.783 minutes
+epoch 6 has passed in 0.794 minutes
+epoch 7 has passed in 0.775 minutes
+epoch 8 has passed in 0.78 minutes
+epoch 9 has passed in 0.782 minutes
+epoch 10 has passed in 0.785 minutes
+epoch 11 has passed in 0.816 minutes
+epoch 12 has passed in 0.816 minutes
+epoch 13 has passed in 0.777 minutes
+epoch 14 has passed in 0.779 minutes
+epoch 15 has passed in 0.778 minutes
+epoch 16 has passed in 0.767 minutes
+epoch 17 has passed in 0.767 minutes
+epoch 18 has passed in 0.762 minutes
+epoch 19 has passed in 0.765 minutes
+epoch 20 has passed in 0.767 minutes
+epoch 21 has passed in 0.762 minutes
+epoch 22 has passed in 0.781 minutes
+epoch 23 has passed in 0.774 minutes
+epoch 24 has passed in 0.77 minutes
+epoch 25 has passed in 0.769 minutes
+epoch 26 has passed in 0.769 minutes
+epoch 27 has passed in 0.766 minutes
+epoch 28 has passed in 0.768 minutes
+epoch 29 has passed in 0.787 minutes
+epoch 30 has passed in 0.775 minutes
+epoch 31 has passed in 0.773 minutes
+epoch 32 has passed in 0.802 minutes
+epoch 33 has passed in 0.778 minutes
+epoch 34 has passed in 0.786 minutes
+epoch 35 has passed in 0.802 minutes
+epoch 36 has passed in 0.778 minutes
+epoch 37 has passed in 0.785 minutes
+epoch 38 has passed in 0.801 minutes
+epoch 39 has passed in 0.789 minutes
+epoch 40 has passed in 0.781 minutes
+epoch 41 has passed in 0.784 minutes
+epoch 42 has passed in 0.8 minutes
+epoch 43 has passed in 0.78 minutes
+epoch 44 has passed in 0.776 minutes
+epoch 45 has passed in 0.776 minutes
+epoch 46 has passed in 0.771 minutes
+epoch 47 has passed in 0.782 minutes
+epoch 48 has passed in 0.794 minutes
+epoch 49 has passed in 0.792 minutes
+epoch 50 has passed in 0.808 minutes
+epoch 51 has passed in 0.793 minutes
+epoch 52 has passed in 0.787 minutes
+epoch 53 has passed in 0.783 minutes
+epoch 54 has passed in 0.778 minutes
+epoch 55 has passed in 0.802 minutes
+epoch 56 has passed in 0.773 minutes
+epoch 57 has passed in 0.79 minutes
+epoch 58 has passed in 0.773 minutes
+epoch 59 has passed in 0.779 minutes
+epoch 60 has passed in 0.774 minutes
+epoch 61 has passed in 0.768 minutes
+epoch 62 has passed in 0.773 minutes
+epoch 63 has passed in 0.78 minutes
+epoch 64 has passed in 0.778 minutes
+epoch 65 has passed in 0.79 minutes
+epoch 66 has passed in 0.796 minutes
+epoch 67 has passed in 0.787 minutes
+epoch 68 has passed in 0.803 minutes
+epoch 69 has passed in 0.806 minutes
+epoch 70 has passed in 0.798 minutes
+epoch 71 has passed in 0.789 minutes
+epoch 72 has passed in 0.798 minutes
+epoch 73 has passed in 0.775 minutes
+epoch 74 has passed in 0.819 minutes
+epoch 75 has passed in 0.786 minutes
+epoch 76 has passed in 0.798 minutes
+epoch 77 has passed in 0.793 minutes
+epoch 78 has passed in 0.804 minutes
+epoch 79 has passed in 0.812 minutes
+epoch 80 has passed in 0.813 minutes
+epoch 81 has passed in 0.813 minutes
+epoch 82 has passed in 0.784 minutes
+epoch 83 has passed in 0.802 minutes
+epoch 84 has passed in 0.805 minutes
+epoch 85 has passed in 0.808 minutes
+epoch 86 has passed in 0.799 minutes
+epoch 87 has passed in 0.81 minutes
+epoch 88 has passed in 0.802 minutes
+epoch 89 has passed in 0.795 minutes
+epoch 90 has passed in 0.776 minutes
+epoch 91 has passed in 0.786 minutes
+epoch 92 has passed in 0.784 minutes
+epoch 93 has passed in 0.791 minutes
+epoch 94 has passed in 0.798 minutes
+epoch 95 has passed in 0.804 minutes
+epoch 96 has passed in 0.814 minutes
+epoch 97 has passed in 0.789 minutes
+epoch 98 has passed in 0.795 minutes
+epoch 99 has passed in 0.778 minutes
+epoch 100 has passed in 0.774 minutes
+epoch 101 has passed in 0.79 minutes
+epoch 102 has passed in 0.785 minutes
+epoch 103 has passed in 0.781 minutes
+epoch 104 has passed in 0.781 minutes
+epoch 105 has passed in 0.785 minutes
+epoch 106 has passed in 0.787 minutes
+epoch 107 has passed in 0.773 minutes
+epoch 108 has passed in 0.774 minutes
+epoch 109 has passed in 0.765 minutes
+epoch 110 has passed in 0.765 minutes
+epoch 111 has passed in 0.761 minutes
+epoch 112 has passed in 0.761 minutes
+epoch 113 has passed in 0.768 minutes
+epoch 114 has passed in 0.77 minutes
+epoch 115 has passed in 0.767 minutes
+epoch 116 has passed in 0.767 minutes
+epoch 117 has passed in 0.782 minutes
+epoch 118 has passed in 0.764 minutes
+epoch 119 has passed in 0.784 minutes
+epoch 120 has passed in 0.757 minutes
+epoch 121 has passed in 0.758 minutes
+epoch 122 has passed in 0.772 minutes
+epoch 123 has passed in 0.756 minutes
+epoch 124 has passed in 0.753 minutes
+epoch 125 has passed in 0.759 minutes
+epoch 126 has passed in 0.754 minutes
+epoch 127 has passed in 0.76 minutes
+epoch 128 has passed in 0.779 minutes
+epoch 129 has passed in 0.725 minutes
+epoch 130 has passed in 0.732 minutes
+epoch 131 has passed in 0.739 minutes
+epoch 132 has passed in 0.737 minutes
+epoch 133 has passed in 0.722 minutes
+epoch 134 has passed in 0.721 minutes
+epoch 135 has passed in 0.723 minutes
+epoch 136 has passed in 0.717 minutes
+epoch 137 has passed in 0.708 minutes
+epoch 138 has passed in 0.715 minutes
+epoch 139 has passed in 0.716 minutes
+epoch 140 has passed in 0.71 minutes
+epoch 141 has passed in 0.713 minutes
+epoch 142 has passed in 0.708 minutes
+epoch 143 has passed in 0.706 minutes
+epoch 144 has passed in 0.715 minutes
+epoch 145 has passed in 0.73 minutes
+epoch 146 has passed in 0.713 minutes
+epoch 147 has passed in 0.717 minutes
+epoch 148 has passed in 0.728 minutes
+epoch 149 has passed in 0.718 minutes
+epoch 150 has passed in 0.722 minutes
+0.639595076511197
+0.698681894320748
+getting accuracy
+50000 [0.1465851366519928, 0.46875086426734924, 0.38466399908065796] 1 2
+100000 [0.04874684289097786, 0.6012100577354431, 0.35004302859306335] 1 1
+150000 [0.09057945013046265, 0.30875515937805176, 0.6006653904914856] 2 1
+200000 [0.08080689609050751, 0.41226619482040405, 0.506926953792572] 2 2
+250000 [0.30833542346954346, 0.42542368173599243, 0.2662408947944641] 1 0
+300000 [0.0011809675488620996, 0.05333850532770157, 0.9454805850982666] 2 2
+350000 [0.06797530502080917, 0.5457696318626404, 0.38625502586364746] 1 1
+400000 [0.27977532148361206, 0.6945042610168457, 0.025720372796058655] 1 1
+450000 [0.22090017795562744, 0.741635799407959, 0.03746401146054268] 1 1
+500000 [0.146986186504364, 0.8406224250793457, 0.01239138562232256] 1 1
+accuracy is 71.55977803744914%
+accuracy got in 0.24 minutes
+done in 119.6 minutes
+Wed Jan 26 17:02:55 2022
+Tomas trained. 
+
+Net init starts. Wed Jan 26 17:07:35 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.658 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.398 minutes
+531441
+net inited in  0.0014 minutes
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+epoch 1 has passed in 0.69 minutes
+epoch 2 has passed in 0.703 minutes
+epoch 3 has passed in 0.733 minutes
+epoch 4 has passed in 0.752 minutes
+epoch 5 has passed in 0.756 minutes
+epoch 6 has passed in 0.761 minutes
+epoch 7 has passed in 0.761 minutes
+epoch 8 has passed in 0.769 minutes
+epoch 9 has passed in 0.77 minutes
+epoch 10 has passed in 0.76 minutes
+0.715055726185339
+0.723340001602019
+getting accuracy
+50000 [0.20125865936279297, 0.5675614476203918, 0.23117990791797638] 1 2
+100000 [0.021288588643074036, 0.4200584292411804, 0.558652937412262] 2 1
+150000 [0.2040993720293045, 0.4802945852279663, 0.3156060576438904] 1 1
+200000 [0.097981758415699, 0.640566885471344, 0.2614513635635376] 1 2
+250000 [0.2266104519367218, 0.508211612701416, 0.2651779353618622] 1 0
+300000 [3.0048071494093165e-05, 0.06976650655269623, 0.9302034378051758] 2 2
+350000 [0.030621562153100967, 0.7664632797241211, 0.20291514694690704] 1 1
+400000 [0.34413251280784607, 0.5633065700531006, 0.09256093949079514] 1 1
+450000 [0.20469558238983154, 0.7440352439880371, 0.05126914381980896] 1 1
+500000 [0.16723491251468658, 0.7554839253425598, 0.0772811770439148] 1 1
+accuracy is 68.67121656025786%
+accuracy got in 0.24 minutes
+done in 10.8 minutes
+Wed Jan 26 17:18:22 2022
+
+The name of this net is William. It starts initialisation. Wed Jan 26 17:18:22 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.679 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.413 minutes
+531441
+net inited in  0.0005 minutes
+epoch 1 has passed in 0.678 minutes
+epoch 2 has passed in 0.685 minutes
+epoch 3 has passed in 0.683 minutes
+epoch 4 has passed in 0.69 minutes
+epoch 5 has passed in 0.691 minutes
+epoch 6 has passed in 0.69 minutes
+epoch 7 has passed in 0.691 minutes
+epoch 8 has passed in 0.69 minutes
+epoch 9 has passed in 0.695 minutes
+epoch 10 has passed in 0.692 minutes
+epoch 11 has passed in 0.693 minutes
+epoch 12 has passed in 0.694 minutes
+epoch 13 has passed in 0.693 minutes
+epoch 14 has passed in 0.694 minutes
+epoch 15 has passed in 0.696 minutes
+epoch 16 has passed in 0.694 minutes
+epoch 17 has passed in 0.692 minutes
+epoch 18 has passed in 0.69 minutes
+epoch 19 has passed in 0.693 minutes
+epoch 20 has passed in 0.691 minutes
+epoch 21 has passed in 0.69 minutes
+epoch 22 has passed in 0.693 minutes
+epoch 23 has passed in 0.692 minutes
+epoch 24 has passed in 0.692 minutes
+epoch 25 has passed in 0.691 minutes
+epoch 26 has passed in 0.688 minutes
+epoch 27 has passed in 0.694 minutes
+epoch 28 has passed in 0.692 minutes
+epoch 29 has passed in 0.707 minutes
+epoch 30 has passed in 0.714 minutes
+epoch 31 has passed in 0.715 minutes
+epoch 32 has passed in 0.7 minutes
+epoch 33 has passed in 0.698 minutes
+epoch 34 has passed in 0.707 minutes
+epoch 35 has passed in 0.711 minutes
+epoch 36 has passed in 0.7 minutes
+epoch 37 has passed in 0.702 minutes
+epoch 38 has passed in 0.702 minutes
+epoch 39 has passed in 0.701 minutes
+epoch 40 has passed in 0.701 minutes
+epoch 41 has passed in 0.701 minutes
+epoch 42 has passed in 0.706 minutes
+epoch 43 has passed in 0.7 minutes
+epoch 44 has passed in 0.699 minutes
+epoch 45 has passed in 0.706 minutes
+epoch 46 has passed in 0.696 minutes
+epoch 47 has passed in 0.715 minutes
+epoch 48 has passed in 0.706 minutes
+epoch 49 has passed in 0.706 minutes
+epoch 50 has passed in 0.708 minutes
+epoch 51 has passed in 0.709 minutes
+epoch 52 has passed in 0.707 minutes
+epoch 53 has passed in 0.711 minutes
+epoch 54 has passed in 0.71 minutes
+epoch 55 has passed in 0.707 minutes
+epoch 56 has passed in 0.714 minutes
+epoch 57 has passed in 0.716 minutes
+epoch 58 has passed in 0.706 minutes
+epoch 59 has passed in 0.701 minutes
+epoch 60 has passed in 0.707 minutes
+epoch 61 has passed in 0.703 minutes
+epoch 62 has passed in 0.703 minutes
+epoch 63 has passed in 0.701 minutes
+epoch 64 has passed in 0.705 minutes
+epoch 65 has passed in 0.704 minutes
+epoch 66 has passed in 0.703 minutes
+epoch 67 has passed in 0.703 minutes
+epoch 68 has passed in 0.703 minutes
+epoch 69 has passed in 0.704 minutes
+epoch 70 has passed in 0.699 minutes
+epoch 71 has passed in 0.698 minutes
+epoch 72 has passed in 0.692 minutes
+epoch 73 has passed in 0.707 minutes
+epoch 74 has passed in 0.695 minutes
+epoch 75 has passed in 0.695 minutes
+epoch 76 has passed in 0.709 minutes
+epoch 77 has passed in 0.705 minutes
+epoch 78 has passed in 0.698 minutes
+epoch 79 has passed in 0.7 minutes
+epoch 80 has passed in 0.698 minutes
+epoch 81 has passed in 0.697 minutes
+epoch 82 has passed in 0.699 minutes
+epoch 83 has passed in 0.703 minutes
+epoch 84 has passed in 0.703 minutes
+epoch 85 has passed in 0.707 minutes
+epoch 86 has passed in 0.701 minutes
+epoch 87 has passed in 0.701 minutes
+epoch 88 has passed in 0.706 minutes
+epoch 89 has passed in 0.703 minutes
+epoch 90 has passed in 0.703 minutes
+epoch 91 has passed in 0.706 minutes
+epoch 92 has passed in 0.709 minutes
+epoch 93 has passed in 0.717 minutes
+epoch 94 has passed in 0.706 minutes
+epoch 95 has passed in 0.713 minutes
+epoch 96 has passed in 0.704 minutes
+epoch 97 has passed in 0.704 minutes
+epoch 98 has passed in 0.706 minutes
+epoch 99 has passed in 0.702 minutes
+epoch 100 has passed in 0.704 minutes
+0.7313130890699034
+0.7406400081142317
+getting accuracy
+50000 [0.13964669406414032, 0.5392289161682129, 0.3211243152618408] 1 2
+100000 [0.09145601093769073, 0.45397520065307617, 0.4545688331127167] 2 1
+150000 [0.0766918733716011, 0.5643250346183777, 0.3589830994606018] 1 1
+200000 [0.15645244717597961, 0.5968140363693237, 0.24673356115818024] 1 2
+250000 [0.4552554488182068, 0.4760269522666931, 0.06871756911277771] 1 0
+300000 [0.004250137135386467, 0.12012651562690735, 0.875623345375061] 2 2
+350000 [0.052170105278491974, 0.6910582780838013, 0.25677159428596497] 1 1
+400000 [0.3602690100669861, 0.5729247331619263, 0.06680628657341003] 1 1
+450000 [0.39948251843452454, 0.5526816248893738, 0.0478358268737793] 1 1
+500000 [0.18303722143173218, 0.7363042831420898, 0.08065855503082275] 1 1
+accuracy is 68.5046881968083%
+accuracy got in 0.24 minutes
+done in 73.4 minutes
+Wed Jan 26 18:31:46 2022
+William trained. 
+
+The name of this net is Ginger. It starts initialisation. Wed Jan 26 18:31:46 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.702 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.457 minutes
+531441
+net inited in  0.0006 minutes
+epoch 1 has passed in 0.688 minutes
+epoch 2 has passed in 0.696 minutes
+epoch 3 has passed in 0.711 minutes
+epoch 4 has passed in 0.721 minutes
+epoch 5 has passed in 0.724 minutes
+epoch 6 has passed in 0.735 minutes
+epoch 7 has passed in 0.724 minutes
+epoch 8 has passed in 0.745 minutes
+epoch 9 has passed in 0.744 minutes
+epoch 10 has passed in 0.727 minutes
+epoch 11 has passed in 0.724 minutes
+epoch 12 has passed in 0.712 minutes
+epoch 13 has passed in 0.713 minutes
+epoch 14 has passed in 0.714 minutes
+epoch 15 has passed in 0.715 minutes
+epoch 16 has passed in 0.708 minutes
+epoch 17 has passed in 0.71 minutes
+epoch 18 has passed in 0.711 minutes
+epoch 19 has passed in 0.718 minutes
+epoch 20 has passed in 0.718 minutes
+epoch 21 has passed in 0.721 minutes
+epoch 22 has passed in 0.719 minutes
+epoch 23 has passed in 0.723 minutes
+epoch 24 has passed in 0.719 minutes
+epoch 25 has passed in 0.716 minutes
+epoch 26 has passed in 0.728 minutes
+epoch 27 has passed in 0.722 minutes
+epoch 28 has passed in 0.722 minutes
+epoch 29 has passed in 0.72 minutes
+epoch 30 has passed in 0.725 minutes
+epoch 31 has passed in 0.724 minutes
+epoch 32 has passed in 0.722 minutes
+epoch 33 has passed in 0.727 minutes
+epoch 34 has passed in 0.721 minutes
+epoch 35 has passed in 0.727 minutes
+epoch 36 has passed in 0.718 minutes
+epoch 37 has passed in 0.723 minutes
+epoch 38 has passed in 0.722 minutes
+epoch 39 has passed in 0.722 minutes
+epoch 40 has passed in 0.726 minutes
+epoch 41 has passed in 0.723 minutes
+epoch 42 has passed in 0.731 minutes
+epoch 43 has passed in 0.724 minutes
+epoch 44 has passed in 0.73 minutes
+epoch 45 has passed in 0.718 minutes
+epoch 46 has passed in 0.714 minutes
+epoch 47 has passed in 0.717 minutes
+epoch 48 has passed in 0.704 minutes
+epoch 49 has passed in 0.709 minutes
+epoch 50 has passed in 0.709 minutes
+epoch 51 has passed in 0.71 minutes
+epoch 52 has passed in 0.717 minutes
+epoch 53 has passed in 0.713 minutes
+epoch 54 has passed in 0.715 minutes
+epoch 55 has passed in 0.714 minutes
+epoch 56 has passed in 0.712 minutes
+epoch 57 has passed in 0.715 minutes
+epoch 58 has passed in 0.715 minutes
+epoch 59 has passed in 0.712 minutes
+epoch 60 has passed in 0.71 minutes
+epoch 61 has passed in 0.71 minutes
+epoch 62 has passed in 0.717 minutes
+epoch 63 has passed in 0.717 minutes
+epoch 64 has passed in 0.708 minutes
+epoch 65 has passed in 0.71 minutes
+epoch 66 has passed in 0.711 minutes
+epoch 67 has passed in 0.714 minutes
+epoch 68 has passed in 0.722 minutes
+epoch 69 has passed in 0.72 minutes
+epoch 70 has passed in 0.729 minutes
+epoch 71 has passed in 0.726 minutes
+epoch 72 has passed in 0.718 minutes
+epoch 73 has passed in 0.716 minutes
+epoch 74 has passed in 0.721 minutes
+epoch 75 has passed in 0.731 minutes
+epoch 76 has passed in 0.724 minutes
+epoch 77 has passed in 0.729 minutes
+epoch 78 has passed in 0.734 minutes
+epoch 79 has passed in 0.723 minutes
+epoch 80 has passed in 0.726 minutes
+epoch 81 has passed in 0.72 minutes
+epoch 82 has passed in 0.706 minutes
+epoch 83 has passed in 0.711 minutes
+epoch 84 has passed in 0.714 minutes
+epoch 85 has passed in 0.704 minutes
+epoch 86 has passed in 0.714 minutes
+epoch 87 has passed in 0.704 minutes
+epoch 88 has passed in 0.702 minutes
+epoch 89 has passed in 0.706 minutes
+epoch 90 has passed in 0.705 minutes
+epoch 91 has passed in 0.701 minutes
+epoch 92 has passed in 0.708 minutes
+epoch 93 has passed in 0.705 minutes
+epoch 94 has passed in 0.699 minutes
+epoch 95 has passed in 0.702 minutes
+epoch 96 has passed in 0.703 minutes
+epoch 97 has passed in 0.699 minutes
+epoch 98 has passed in 0.697 minutes
+epoch 99 has passed in 0.701 minutes
+epoch 100 has passed in 0.7 minutes
+epoch 101 has passed in 0.691 minutes
+epoch 102 has passed in 0.692 minutes
+epoch 103 has passed in 0.689 minutes
+epoch 104 has passed in 0.689 minutes
+epoch 105 has passed in 0.688 minutes
+epoch 106 has passed in 0.689 minutes
+epoch 107 has passed in 0.691 minutes
+epoch 108 has passed in 0.692 minutes
+epoch 109 has passed in 0.692 minutes
+epoch 110 has passed in 0.691 minutes
+epoch 111 has passed in 0.69 minutes
+epoch 112 has passed in 0.689 minutes
+epoch 113 has passed in 0.694 minutes
+epoch 114 has passed in 0.692 minutes
+epoch 115 has passed in 0.688 minutes
+epoch 116 has passed in 0.688 minutes
+epoch 117 has passed in 0.691 minutes
+epoch 118 has passed in 0.688 minutes
+epoch 119 has passed in 0.688 minutes
+epoch 120 has passed in 0.716 minutes
+epoch 121 has passed in 0.702 minutes
+epoch 122 has passed in 0.696 minutes
+epoch 123 has passed in 0.702 minutes
+epoch 124 has passed in 0.703 minutes
+epoch 125 has passed in 0.706 minutes
+epoch 126 has passed in 0.699 minutes
+epoch 127 has passed in 0.697 minutes
+epoch 128 has passed in 0.707 minutes
+epoch 129 has passed in 0.71 minutes
+epoch 130 has passed in 0.703 minutes
+epoch 131 has passed in 0.699 minutes
+epoch 132 has passed in 0.707 minutes
+epoch 133 has passed in 0.707 minutes
+epoch 134 has passed in 0.702 minutes
+epoch 135 has passed in 0.702 minutes
+epoch 136 has passed in 0.7 minutes
+epoch 137 has passed in 0.703 minutes
+epoch 138 has passed in 0.697 minutes
+epoch 139 has passed in 0.71 minutes
+epoch 140 has passed in 0.707 minutes
+epoch 141 has passed in 0.706 minutes
+epoch 142 has passed in 0.705 minutes
+epoch 143 has passed in 0.712 minutes
+epoch 144 has passed in 0.71 minutes
+epoch 145 has passed in 0.717 minutes
+epoch 146 has passed in 0.709 minutes
+epoch 147 has passed in 0.706 minutes
+epoch 148 has passed in 0.71 minutes
+epoch 149 has passed in 0.702 minutes
+epoch 150 has passed in 0.714 minutes
+0.7217317161649665
+0.7343042171083537
+getting accuracy
+50000 [0.26208779215812683, 0.46638569235801697, 0.2715265154838562] 1 2
+100000 [0.11755557358264923, 0.4616177976131439, 0.42082667350769043] 1 1
+150000 [0.13417066633701324, 0.5609638094902039, 0.3048655092716217] 1 1
+200000 [0.1705218106508255, 0.49981945753097534, 0.32965871691703796] 1 2
+250000 [0.5046252012252808, 0.43392959237098694, 0.06144517660140991] 0 0
+300000 [0.0016433704877272248, 0.11029084026813507, 0.888065755367279] 2 2
+350000 [0.08503656089305878, 0.47705984115600586, 0.43790358304977417] 1 1
+400000 [0.4111090898513794, 0.529242217540741, 0.059648752212524414] 1 1
+450000 [0.33543866872787476, 0.5994340777397156, 0.06512725353240967] 1 1
+500000 [0.14330452680587769, 0.7617349028587341, 0.0949605405330658] 1 1
+accuracy is 69.03739079220459%
+accuracy got in 0.24 minutes
+done in 110.0 minutes
+Wed Jan 26 20:21:48 2022
+Ginger trained. 
+
+The name of this net is Teodor. It starts initialisation. Wed Jan 26 20:21:48 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.705 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.397 minutes
+531441
+net inited in  0.0007 minutes
+epoch 1 has passed in 0.867 minutes
+epoch 2 has passed in 0.874 minutes
+epoch 3 has passed in 0.872 minutes
+epoch 4 has passed in 0.859 minutes
+epoch 5 has passed in 0.876 minutes
+epoch 6 has passed in 0.879 minutes
+epoch 7 has passed in 0.88 minutes
+epoch 8 has passed in 0.875 minutes
+epoch 9 has passed in 0.867 minutes
+epoch 10 has passed in 0.867 minutes
+epoch 11 has passed in 0.864 minutes
+epoch 12 has passed in 0.868 minutes
+epoch 13 has passed in 0.863 minutes
+epoch 14 has passed in 0.87 minutes
+epoch 15 has passed in 0.872 minutes
+epoch 16 has passed in 0.886 minutes
+epoch 17 has passed in 0.878 minutes
+epoch 18 has passed in 0.876 minutes
+epoch 19 has passed in 0.912 minutes
+epoch 20 has passed in 0.871 minutes
+epoch 21 has passed in 0.873 minutes
+epoch 22 has passed in 0.88 minutes
+epoch 23 has passed in 0.873 minutes
+epoch 24 has passed in 0.874 minutes
+epoch 25 has passed in 0.879 minutes
+epoch 26 has passed in 0.871 minutes
+epoch 27 has passed in 0.877 minutes
+epoch 28 has passed in 0.896 minutes
+epoch 29 has passed in 0.861 minutes
+epoch 30 has passed in 0.864 minutes
+epoch 31 has passed in 0.896 minutes
+epoch 32 has passed in 0.864 minutes
+epoch 33 has passed in 0.861 minutes
+epoch 34 has passed in 0.864 minutes
+epoch 35 has passed in 0.873 minutes
+epoch 36 has passed in 0.884 minutes
+epoch 37 has passed in 0.865 minutes
+epoch 38 has passed in 0.868 minutes
+epoch 39 has passed in 0.862 minutes
+epoch 40 has passed in 0.875 minutes
+epoch 41 has passed in 0.874 minutes
+epoch 42 has passed in 0.867 minutes
+epoch 43 has passed in 0.874 minutes
+epoch 44 has passed in 0.873 minutes
+epoch 45 has passed in 0.882 minutes
+epoch 46 has passed in 0.884 minutes
+epoch 47 has passed in 0.895 minutes
+epoch 48 has passed in 0.893 minutes
+epoch 49 has passed in 0.887 minutes
+epoch 50 has passed in 0.91 minutes
+epoch 51 has passed in 0.907 minutes
+epoch 52 has passed in 0.906 minutes
+epoch 53 has passed in 0.898 minutes
+epoch 54 has passed in 0.909 minutes
+epoch 55 has passed in 0.889 minutes
+epoch 56 has passed in 0.927 minutes
+epoch 57 has passed in 0.912 minutes
+epoch 58 has passed in 0.937 minutes
+epoch 59 has passed in 0.924 minutes
+epoch 60 has passed in 0.917 minutes
+epoch 61 has passed in 0.931 minutes
+epoch 62 has passed in 0.934 minutes
+epoch 63 has passed in 0.905 minutes
+epoch 64 has passed in 0.881 minutes
+epoch 65 has passed in 0.878 minutes
+epoch 66 has passed in 0.874 minutes
+epoch 67 has passed in 0.883 minutes
+epoch 68 has passed in 0.877 minutes
+epoch 69 has passed in 0.88 minutes
+epoch 70 has passed in 0.88 minutes
+epoch 71 has passed in 0.876 minutes
+epoch 72 has passed in 0.876 minutes
+epoch 73 has passed in 0.877 minutes
+epoch 74 has passed in 0.874 minutes
+epoch 75 has passed in 0.866 minutes
+epoch 76 has passed in 0.865 minutes
+epoch 77 has passed in 0.867 minutes
+epoch 78 has passed in 0.865 minutes
+epoch 79 has passed in 0.867 minutes
+epoch 80 has passed in 0.862 minutes
+epoch 81 has passed in 0.865 minutes
+epoch 82 has passed in 0.865 minutes
+epoch 83 has passed in 0.865 minutes
+epoch 84 has passed in 0.865 minutes
+epoch 85 has passed in 0.866 minutes
+epoch 86 has passed in 0.865 minutes
+epoch 87 has passed in 0.867 minutes
+epoch 88 has passed in 0.866 minutes
+epoch 89 has passed in 0.864 minutes
+epoch 90 has passed in 0.866 minutes
+epoch 91 has passed in 0.864 minutes
+epoch 92 has passed in 0.864 minutes
+epoch 93 has passed in 0.864 minutes
+epoch 94 has passed in 0.864 minutes
+epoch 95 has passed in 0.865 minutes
+epoch 96 has passed in 0.866 minutes
+epoch 97 has passed in 0.867 minutes
+epoch 98 has passed in 0.863 minutes
+epoch 99 has passed in 0.865 minutes
+epoch 100 has passed in 0.868 minutes
+0.5992556548009585
+0.7068993577024788
+getting accuracy
+50000 [0.16212785243988037, 0.36622700095176697, 0.47164514660835266] 2 2
+100000 [0.0678134486079216, 0.6994224190711975, 0.2327640950679779] 1 1
+150000 [0.11399330198764801, 0.5195916295051575, 0.3664151728153229] 1 1
+200000 [0.08544375002384186, 0.18840308487415314, 0.7261531949043274] 2 2
+250000 [0.40565580129623413, 0.5022314786911011, 0.09211267530918121] 1 0
+300000 [7.987968047018512e-07, 0.026942016556859016, 0.9730571508407593] 2 2
+350000 [0.06777007132768631, 0.6267743706703186, 0.3054555654525757] 1 1
+400000 [0.4375423491001129, 0.5609849095344543, 0.001472717965953052] 1 1
+450000 [0.33716505765914917, 0.6108081340789795, 0.052026763558387756] 1 1
+500000 [0.2338687926530838, 0.5821085572242737, 0.18402260541915894] 1 1
+accuracy is 72.30266388931227%
+accuracy got in 0.26 minutes
+done in 91.2 minutes
+Wed Jan 26 21:53:00 2022
+Teodor trained. 
+
+[68.67121656025786, 68.5046881968083, 69.03739079220459, 72.30266388931227]
+
+The name of this net is Alexander. It starts initialisation. Wed Jan 26 22:28:23 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.68 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.399 minutes
+531441
+net inited in  0.0006 minutes
+epoch 1 has passed in 0.92 minutes
+epoch 2 has passed in 0.869 minutes
+epoch 3 has passed in 0.881 minutes
+epoch 4 has passed in 0.871 minutes
+epoch 5 has passed in 0.886 minutes
+epoch 6 has passed in 0.892 minutes
+epoch 7 has passed in 0.893 minutes
+epoch 8 has passed in 0.904 minutes
+epoch 9 has passed in 0.883 minutes
+epoch 10 has passed in 0.893 minutes
+epoch 11 has passed in 0.904 minutes
+epoch 12 has passed in 0.887 minutes
+epoch 13 has passed in 0.894 minutes
+epoch 14 has passed in 0.887 minutes
+epoch 15 has passed in 0.897 minutes
+epoch 16 has passed in 0.876 minutes
+epoch 17 has passed in 0.878 minutes
+epoch 18 has passed in 0.884 minutes
+epoch 19 has passed in 0.875 minutes
+epoch 20 has passed in 0.877 minutes
+epoch 21 has passed in 0.879 minutes
+epoch 22 has passed in 0.878 minutes
+epoch 23 has passed in 0.864 minutes
+epoch 24 has passed in 0.869 minutes
+epoch 25 has passed in 0.875 minutes
+epoch 26 has passed in 0.867 minutes
+epoch 27 has passed in 0.875 minutes
+epoch 28 has passed in 0.877 minutes
+epoch 29 has passed in 0.875 minutes
+epoch 30 has passed in 0.87 minutes
+epoch 31 has passed in 0.866 minutes
+epoch 32 has passed in 0.871 minutes
+epoch 33 has passed in 0.877 minutes
+epoch 34 has passed in 0.885 minutes
+epoch 35 has passed in 0.878 minutes
+epoch 36 has passed in 0.882 minutes
+epoch 37 has passed in 0.879 minutes
+epoch 38 has passed in 0.89 minutes
+epoch 39 has passed in 0.882 minutes
+epoch 40 has passed in 0.887 minutes
+epoch 41 has passed in 0.869 minutes
+epoch 42 has passed in 0.876 minutes
+epoch 43 has passed in 0.889 minutes
+epoch 44 has passed in 0.897 minutes
+epoch 45 has passed in 0.893 minutes
+epoch 46 has passed in 0.887 minutes
+epoch 47 has passed in 0.883 minutes
+epoch 48 has passed in 0.883 minutes
+epoch 49 has passed in 0.882 minutes
+epoch 50 has passed in 0.88 minutes
+epoch 51 has passed in 0.882 minutes
+epoch 52 has passed in 0.888 minutes
+epoch 53 has passed in 0.897 minutes
+epoch 54 has passed in 0.881 minutes
+epoch 55 has passed in 0.899 minutes
+epoch 56 has passed in 0.895 minutes
+epoch 57 has passed in 0.864 minutes
+epoch 58 has passed in 0.871 minutes
+epoch 59 has passed in 0.886 minutes
+epoch 60 has passed in 0.88 minutes
+epoch 61 has passed in 0.934 minutes
+epoch 62 has passed in 0.899 minutes
+epoch 63 has passed in 0.907 minutes
+epoch 64 has passed in 0.893 minutes
+epoch 65 has passed in 0.891 minutes
+epoch 66 has passed in 0.893 minutes
+epoch 67 has passed in 0.898 minutes
+epoch 68 has passed in 0.897 minutes
+epoch 69 has passed in 0.893 minutes
+epoch 70 has passed in 0.879 minutes
+epoch 71 has passed in 0.879 minutes
+epoch 72 has passed in 0.888 minutes
+epoch 73 has passed in 0.887 minutes
+epoch 74 has passed in 0.898 minutes
+epoch 75 has passed in 0.889 minutes
+epoch 76 has passed in 0.887 minutes
+epoch 77 has passed in 0.889 minutes
+epoch 78 has passed in 0.888 minutes
+epoch 79 has passed in 0.891 minutes
+epoch 80 has passed in 0.902 minutes
+epoch 81 has passed in 0.916 minutes
+epoch 82 has passed in 0.895 minutes
+epoch 83 has passed in 0.902 minutes
+epoch 84 has passed in 0.893 minutes
+epoch 85 has passed in 0.893 minutes
+epoch 86 has passed in 0.895 minutes
+epoch 87 has passed in 0.897 minutes
+epoch 88 has passed in 0.899 minutes
+epoch 89 has passed in 0.897 minutes
+epoch 90 has passed in 0.91 minutes
+epoch 91 has passed in 0.918 minutes
+epoch 92 has passed in 0.915 minutes
+epoch 93 has passed in 0.963 minutes
+epoch 94 has passed in 0.947 minutes
+epoch 95 has passed in 0.864 minutes
+epoch 96 has passed in 0.855 minutes
+epoch 97 has passed in 0.851 minutes
+epoch 98 has passed in 0.847 minutes
+epoch 99 has passed in 0.852 minutes
+epoch 100 has passed in 0.863 minutes
+epoch 101 has passed in 0.854 minutes
+epoch 102 has passed in 0.853 minutes
+epoch 103 has passed in 0.847 minutes
+epoch 104 has passed in 0.852 minutes
+epoch 105 has passed in 0.851 minutes
+epoch 106 has passed in 0.819 minutes
+epoch 107 has passed in 0.805 minutes
+epoch 108 has passed in 0.81 minutes
+epoch 109 has passed in 0.807 minutes
+epoch 110 has passed in 0.806 minutes
+epoch 111 has passed in 0.809 minutes
+epoch 112 has passed in 0.805 minutes
+epoch 113 has passed in 0.805 minutes
+epoch 114 has passed in 0.804 minutes
+epoch 115 has passed in 0.806 minutes
+epoch 116 has passed in 0.807 minutes
+epoch 117 has passed in 0.809 minutes
+epoch 118 has passed in 0.808 minutes
+epoch 119 has passed in 0.806 minutes
+epoch 120 has passed in 0.807 minutes
+epoch 121 has passed in 0.803 minutes
+epoch 122 has passed in 0.805 minutes
+epoch 123 has passed in 0.805 minutes
+epoch 124 has passed in 0.802 minutes
+epoch 125 has passed in 0.808 minutes
+epoch 126 has passed in 0.812 minutes
+epoch 127 has passed in 0.85 minutes
+epoch 128 has passed in 0.846 minutes
+epoch 129 has passed in 0.846 minutes
+epoch 130 has passed in 0.846 minutes
+epoch 131 has passed in 0.85 minutes
+epoch 132 has passed in 0.847 minutes
+epoch 133 has passed in 0.845 minutes
+epoch 134 has passed in 0.846 minutes
+epoch 135 has passed in 0.847 minutes
+epoch 136 has passed in 0.847 minutes
+epoch 137 has passed in 0.845 minutes
+epoch 138 has passed in 0.84 minutes
+epoch 139 has passed in 0.803 minutes
+epoch 140 has passed in 0.805 minutes
+epoch 141 has passed in 0.805 minutes
+epoch 142 has passed in 0.804 minutes
+epoch 143 has passed in 0.801 minutes
+epoch 144 has passed in 0.807 minutes
+epoch 145 has passed in 0.804 minutes
+epoch 146 has passed in 0.804 minutes
+epoch 147 has passed in 0.803 minutes
+epoch 148 has passed in 0.804 minutes
+epoch 149 has passed in 0.805 minutes
+epoch 150 has passed in 0.802 minutes
+0.5793608348612246
+0.7259886241561854
+getting accuracy
+50000 [0.1306857019662857, 0.4457148611545563, 0.4235994219779968] 1 2
+100000 [0.019049329683184624, 0.8021858334541321, 0.1787649244070053] 1 1
+150000 [0.08354047685861588, 0.7487432956695557, 0.16771624982357025] 1 1
+200000 [0.023329105228185654, 0.2894059419631958, 0.6872649192810059] 2 2
+250000 [0.21524547040462494, 0.45291346311569214, 0.3318410813808441] 1 0
+300000 [3.917499213912379e-08, 0.07657022774219513, 0.9234296679496765] 2 2
+350000 [0.1437465399503708, 0.6275115609169006, 0.22874188423156738] 1 1
+400000 [0.40763604640960693, 0.5609695315361023, 0.03139445558190346] 1 1
+450000 [0.45977839827537537, 0.49944961071014404, 0.04077200964093208] 1 1
+500000 [0.18252602219581604, 0.5863465666770935, 0.23112738132476807] 1 1
+accuracy is 72.0401700282816%
+accuracy got in 0.24 minutes
+done in 133.1 minutes
+Thu Jan 27 00:41:27 2022
+Alexander trained. 
+
+neo8 = Neural(3, 5, "Alexander")
+neo8.change_super_parameters(1e-4, 150, 0.5, 200)
+neo8.init_net()
+accuracies.append(neo8.train())
+
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\python.exe C:/Users/DenBa/PycharmProjects/1/new_main.py
+C:\Users\DenBa\AppData\Local\Programs\Python\Python38\lib\site-packages\setuptools\distutils_patch.py:25: UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+  warnings.warn(
+Net init starts. Thu Jan 27 10:15:19 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.668 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.508 minutes
+531441
+net inited in  0.0015 minutes
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+epoch 1 has passed in 0.752 minutes
+epoch 2 has passed in 0.746 minutes
+epoch 3 has passed in 0.788 minutes
+epoch 4 has passed in 0.845 minutes
+epoch 5 has passed in 0.971 minutes
+epoch 6 has passed in 0.856 minutes
+epoch 7 has passed in 0.811 minutes
+epoch 8 has passed in 0.796 minutes
+epoch 9 has passed in 0.84 minutes
+epoch 10 has passed in 0.821 minutes
+0.7132904648840687
+0.7216272557954432
+getting accuracy
+50000 [0.1876465529203415, 0.6589662432670593, 0.15338724851608276] 1 2
+100000 [0.04897874593734741, 0.6325281858444214, 0.3184930086135864] 1 1
+150000 [0.06884290277957916, 0.5514301061630249, 0.37972700595855713] 1 1
+200000 [0.13829734921455383, 0.4335907995700836, 0.42811188101768494] 1 2
+250000 [0.4713011384010315, 0.41438865661621094, 0.11431017518043518] 0 0
+300000 [0.0037459859158843756, 0.07872043550014496, 0.9175335168838501] 2 2
+350000 [0.05393935367465019, 0.5525569319725037, 0.39350372552871704] 1 1
+400000 [0.4188386797904968, 0.5251908898353577, 0.055970434099435806] 1 1
+450000 [0.3871411979198456, 0.5714458227157593, 0.041412949562072754] 1 1
+500000 [0.27630382776260376, 0.5533186197280884, 0.17037758231163025] 1 1
+accuracy is 68.7366988997838%
+accuracy got in 0.25 minutes
+done in 11.7 minutes
+Thu Jan 27 10:27:00 2022
+
+The name of this net is Jordan. It starts initialisation. Thu Jan 27 10:27:00 2022
+50000 [1, 1, 0, -1, -2, 2, 3, 0, -2, -1, 1, 3, 0, -2, -2] [0.0, 0.0, 0.19999999999999996, -0.6, 1.0, 0.0, 0.0, -1.0, -0.33333333333333337, -0.33333333333333337, -0.33333333333333337, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.5, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]
+100000 [1, 2, 0, -1, -3, 1, 3, 0, -3, -2, 2, 3, 0, -3, -3] [0.0, 0.0, 0.33333333333333326, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.5, -0.33333333333333337, 0.0, 0.6000000000000001, -1.0, 0.0, 0.1428571428571428, 0.0, 0.0, -0.19999999999999996, -1.0, -1.0]
+150000 [1, 3, 0, -2, -2, 3, 2, 0, -1, -3, 3, 2, 0, -2, -1] [0.0, 0.0, -0.33333333333333337, -0.19999999999999996, 0.5, 0.0, 0.0, -1.0, 0.0, 0.0, -0.19999999999999996, -1.0, 0.0, 0.33333333333333326, 1.0, -1.0, -0.33333333333333337, 0.0, -1.0, 1.0, -1.0, -1.0, 0.19999999999999996, 0.0, 1.0, -0.5, -1.0, -0.33333333333333337, -0.5, 0.33333333333333326, 0.0, 1.0, 0.0, 0.0]
+200000 [2, 1, 0, -2, -3, 2, 2, 0, -2, -3, 1, 2, 0, -3, -2] [0.0, 0.0, 1.0, 0.1428571428571428, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, -0.5, -0.5, 0.20000000000000018, -0.5, -0.5, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, 0.0, 0.0]
+250000 [2, 2, 0, -3, -1, 1, 1, 0, -1, -1, 2, 1, 0, -1, -3] [0.0, 0.0, -0.1428571428571429, 1.0, -1.0, 0.0, 0.0, -0.19999999999999996, -0.33333333333333337, -0.33333333333333337, 1.0, 0.0, -0.33333333333333337, -1.0, -1.0, -1.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337, 0.0, 0.0, 0.0, -1.0, -1.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+300000 [2, 3, 0, -3, -3, 3, 1, 0, -2, -2, 3, 1, 0, -3, -1] [0.0, 0.0, 0.33333333333333326, -0.33333333333333337, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.6, 0.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0, 0.0, -1.0, -1.0, -0.5, 1.0, 0.0, 1.0, 0.33333333333333326, -1.0, -0.7142857142857143, 0.0, -0.33333333333333337, 1.0, -1.0, -1.0]
+350000 [2, 3, 0, -1, -1, 2, 1, 0, -3, -3, 3, 3, 0, -1, -2] [0.0, 0.0, -0.5, 0.33333333333333326, 0.19999999999999996, 0.0, 0.0, 0.0, -1.0, -1.0, 1.0, 0.0, 0.5, 0.19999999999999996, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, 1.0, 0.0, 0.0, -0.1428571428571429, 0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, -0.33333333333333337, 0.0, -0.33333333333333337, -0.33333333333333337]
+400000 [3, 1, 0, -1, -3, 3, 3, 0, -1, -3, 1, 3, 0, -2, -3] [0.0, 0.0, 0.0, -1.0, 0.1428571428571428, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.1428571428571428, 0.0, -0.33333333333333337, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -1.0, 0.0, -0.5, -0.5, -1.0, -1.0, 0.0, 0.20000000000000018, -0.5, -0.5]
+450000 [3, 2, 0, -2, -1, 2, 3, 0, -3, -1, 2, 2, 0, -1, -1] [0.0, 0.0, -1.0, 0.6000000000000001, 0.33333333333333326, 0.0, 0.0, -1.0, -1.0, -1.0, -1.0, -1.0, 0.0, -1.0, -1.0, 0.0, -1.0, 0.0, -1.0, 1.0, -0.5, -0.5, 0.0, -0.5, -0.5, -1.0, 0.0, -1.0, 0.33333333333333326, 0.0, 0.0, 1.0, 0.0, 0.0]
+500000 [3, 3, 0, -2, -2, 1, 2, 0, -1, -2, 3, 2, 0, -2, -2] [0.0, 0.0, 0.0, -0.4285714285714286, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.6, 1.0, -1.0, 1.0, 0.0, 0.0, -0.23076923076923084, -1.0, 0.0, -0.23076923076923084, -1.0, -1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, -0.33333333333333337, 0.0, 0.0, -0.33333333333333337, -0.33333333333333337]
+data created in  0.697 minutes
+0 1
+50000 0
+100000 1
+150000 0
+200000 2
+250000 1
+300000 2
+350000 1
+400000 2
+450000 2
+500000 1
+answers created in  2.542 minutes
+531441
+net inited in  0.0008 minutes
+epoch 1 has passed in 0.962 minutes
+epoch 2 has passed in 0.909 minutes
+epoch 3 has passed in 0.968 minutes
+epoch 4 has passed in 0.963 minutes
+epoch 5 has passed in 0.947 minutes
+epoch 6 has passed in 0.959 minutes
+epoch 7 has passed in 0.964 minutes
+epoch 8 has passed in 0.975 minutes
+epoch 9 has passed in 1.021 minutes
+epoch 10 has passed in 1.036 minutes
+epoch 11 has passed in 1.091 minutes
+epoch 12 has passed in 1.188 minutes
+epoch 13 has passed in 1.098 minutes
+epoch 14 has passed in 1.118 minutes
+epoch 15 has passed in 0.993 minutes
+epoch 16 has passed in 0.97 minutes
+epoch 17 has passed in 0.948 minutes
+epoch 18 has passed in 0.968 minutes
+epoch 19 has passed in 1.044 minutes
+epoch 20 has passed in 1.036 minutes
+epoch 21 has passed in 1.063 minutes
+epoch 22 has passed in 0.954 minutes
+epoch 23 has passed in 0.968 minutes
+epoch 24 has passed in 1.057 minutes
+epoch 25 has passed in 1.012 minutes
+epoch 26 has passed in 1.034 minutes
+epoch 27 has passed in 0.922 minutes
+epoch 28 has passed in 0.9 minutes
+epoch 29 has passed in 0.891 minutes
+epoch 30 has passed in 0.905 minutes
+epoch 31 has passed in 0.923 minutes
+epoch 32 has passed in 0.895 minutes
+epoch 33 has passed in 0.867 minutes
+epoch 34 has passed in 0.856 minutes
+epoch 35 has passed in 0.894 minutes
+epoch 36 has passed in 0.871 minutes
+epoch 37 has passed in 0.921 minutes
+epoch 38 has passed in 0.907 minutes
+epoch 39 has passed in 0.911 minutes
+epoch 40 has passed in 0.901 minutes
+epoch 41 has passed in 0.895 minutes
+epoch 42 has passed in 0.904 minutes
+epoch 43 has passed in 0.909 minutes
+epoch 44 has passed in 0.931 minutes
+epoch 45 has passed in 0.929 minutes
+epoch 46 has passed in 0.927 minutes
+epoch 47 has passed in 0.945 minutes
+epoch 48 has passed in 0.964 minutes
+epoch 49 has passed in 0.927 minutes
+epoch 50 has passed in 0.932 minutes
+epoch 51 has passed in 0.972 minutes
+epoch 52 has passed in 0.986 minutes
+epoch 53 has passed in 1.016 minutes
+epoch 54 has passed in 0.98 minutes
+epoch 55 has passed in 0.949 minutes
+epoch 56 has passed in 0.984 minutes
+epoch 57 has passed in 0.947 minutes
+epoch 58 has passed in 0.958 minutes
+epoch 59 has passed in 0.969 minutes
+epoch 60 has passed in 0.967 minutes
+epoch 61 has passed in 0.951 minutes
+epoch 62 has passed in 0.933 minutes
+epoch 63 has passed in 0.925 minutes
+epoch 64 has passed in 0.912 minutes
+epoch 65 has passed in 0.908 minutes
+epoch 66 has passed in 0.91 minutes
+epoch 67 has passed in 0.921 minutes
+epoch 68 has passed in 0.91 minutes
+epoch 69 has passed in 0.927 minutes
+epoch 70 has passed in 0.92 minutes
+epoch 71 has passed in 0.908 minutes
+epoch 72 has passed in 0.902 minutes
+epoch 73 has passed in 0.902 minutes
+epoch 74 has passed in 0.908 minutes
+epoch 75 has passed in 0.893 minutes
+epoch 76 has passed in 0.913 minutes
+epoch 77 has passed in 0.921 minutes
+epoch 78 has passed in 0.912 minutes
+epoch 79 has passed in 0.917 minutes
+epoch 80 has passed in 0.881 minutes
+epoch 81 has passed in 0.881 minutes
+epoch 82 has passed in 0.87 minutes
+epoch 83 has passed in 0.868 minutes
+epoch 84 has passed in 0.873 minutes
+epoch 85 has passed in 0.878 minutes
+epoch 86 has passed in 0.864 minutes
+epoch 87 has passed in 0.868 minutes
+epoch 88 has passed in 0.869 minutes
+epoch 89 has passed in 0.865 minutes
+epoch 90 has passed in 0.869 minutes
+epoch 91 has passed in 0.857 minutes
+epoch 92 has passed in 0.818 minutes
+epoch 93 has passed in 0.818 minutes
+epoch 94 has passed in 0.817 minutes
+epoch 95 has passed in 0.818 minutes
+epoch 96 has passed in 0.818 minutes
+epoch 97 has passed in 0.869 minutes
+epoch 98 has passed in 0.932 minutes
+epoch 99 has passed in 0.917 minutes
+epoch 100 has passed in 0.926 minutes
+epoch 101 has passed in 0.923 minutes
+epoch 102 has passed in 0.924 minutes
+epoch 103 has passed in 0.934 minutes
+epoch 104 has passed in 0.909 minutes
+epoch 105 has passed in 0.896 minutes
+epoch 106 has passed in 0.898 minutes
+epoch 107 has passed in 0.892 minutes
+epoch 108 has passed in 0.912 minutes
+epoch 109 has passed in 0.904 minutes
+epoch 110 has passed in 0.893 minutes
+epoch 111 has passed in 0.894 minutes
+epoch 112 has passed in 0.906 minutes
+epoch 113 has passed in 0.904 minutes
+epoch 114 has passed in 0.911 minutes
+epoch 115 has passed in 0.909 minutes
+epoch 116 has passed in 0.905 minutes
+epoch 117 has passed in 0.91 minutes
+epoch 118 has passed in 0.907 minutes
+epoch 119 has passed in 0.912 minutes
+epoch 120 has passed in 0.894 minutes
+epoch 121 has passed in 0.895 minutes
+epoch 122 has passed in 0.887 minutes
+epoch 123 has passed in 0.901 minutes
+epoch 124 has passed in 0.896 minutes
+epoch 125 has passed in 0.9 minutes
+epoch 126 has passed in 0.896 minutes
+epoch 127 has passed in 0.896 minutes
+epoch 128 has passed in 0.903 minutes
+epoch 129 has passed in 0.907 minutes
+epoch 130 has passed in 0.91 minutes
+epoch 131 has passed in 0.895 minutes
+epoch 132 has passed in 0.908 minutes
+epoch 133 has passed in 0.934 minutes
+epoch 134 has passed in 0.903 minutes
+epoch 135 has passed in 0.895 minutes
+epoch 136 has passed in 0.896 minutes
+epoch 137 has passed in 0.901 minutes
+epoch 138 has passed in 0.909 minutes
+epoch 139 has passed in 0.908 minutes
+epoch 140 has passed in 0.916 minutes
+epoch 141 has passed in 0.909 minutes
+epoch 142 has passed in 0.959 minutes
+epoch 143 has passed in 0.934 minutes
+epoch 144 has passed in 0.908 minutes
+epoch 145 has passed in 0.902 minutes
+epoch 146 has passed in 0.905 minutes
+epoch 147 has passed in 0.941 minutes
+epoch 148 has passed in 1.181 minutes
+epoch 149 has passed in 1.178 minutes
+epoch 150 has passed in 1.174 minutes
+epoch 151 has passed in 1.146 minutes
+epoch 152 has passed in 1.148 minutes
+epoch 153 has passed in 1.157 minutes
+epoch 154 has passed in 1.174 minutes
+epoch 155 has passed in 1.157 minutes
+epoch 156 has passed in 1.11 minutes
+epoch 157 has passed in 0.891 minutes
+epoch 158 has passed in 0.904 minutes
+epoch 159 has passed in 0.89 minutes
+epoch 160 has passed in 0.887 minutes
+epoch 161 has passed in 0.965 minutes
+epoch 162 has passed in 0.896 minutes
+epoch 163 has passed in 0.94 minutes
+epoch 164 has passed in 0.926 minutes
+epoch 165 has passed in 0.916 minutes
+epoch 166 has passed in 0.923 minutes
+epoch 167 has passed in 1.02 minutes
+epoch 168 has passed in 1.024 minutes
+epoch 169 has passed in 0.978 minutes
+epoch 170 has passed in 0.987 minutes
+epoch 171 has passed in 1.002 minutes
+epoch 172 has passed in 0.969 minutes
+epoch 173 has passed in 0.983 minutes
+epoch 174 has passed in 0.976 minutes
+epoch 175 has passed in 0.976 minutes
+epoch 176 has passed in 0.977 minutes
+epoch 177 has passed in 0.976 minutes
+epoch 178 has passed in 0.977 minutes
+epoch 179 has passed in 0.988 minutes
+epoch 180 has passed in 0.983 minutes
+epoch 181 has passed in 1.01 minutes
+epoch 182 has passed in 0.974 minutes
+epoch 183 has passed in 0.983 minutes
+epoch 184 has passed in 0.98 minutes
+epoch 185 has passed in 0.978 minutes
+epoch 186 has passed in 0.988 minutes
+epoch 187 has passed in 0.983 minutes
+epoch 188 has passed in 1.007 minutes
+epoch 189 has passed in 1.001 minutes
+epoch 190 has passed in 0.984 minutes
+epoch 191 has passed in 0.978 minutes
+epoch 192 has passed in 0.977 minutes
+epoch 193 has passed in 0.965 minutes
+epoch 194 has passed in 0.988 minutes
+epoch 195 has passed in 0.978 minutes
+epoch 196 has passed in 0.969 minutes
+epoch 197 has passed in 0.946 minutes
+epoch 198 has passed in 0.951 minutes
+epoch 199 has passed in 0.953 minutes
+epoch 200 has passed in 0.944 minutes
+epoch 201 has passed in 0.974 minutes
+epoch 202 has passed in 0.984 minutes
+epoch 203 has passed in 0.948 minutes
+epoch 204 has passed in 0.981 minutes
+epoch 205 has passed in 0.977 minutes
+epoch 206 has passed in 0.979 minutes
+epoch 207 has passed in 0.888 minutes
+epoch 208 has passed in 0.881 minutes
+epoch 209 has passed in 0.877 minutes
+epoch 210 has passed in 0.878 minutes
+epoch 211 has passed in 0.88 minutes
+epoch 212 has passed in 0.869 minutes
+epoch 213 has passed in 0.871 minutes
+epoch 214 has passed in 0.86 minutes
+epoch 215 has passed in 0.888 minutes
+epoch 216 has passed in 0.884 minutes
+epoch 217 has passed in 0.895 minutes
+epoch 218 has passed in 0.909 minutes
+epoch 219 has passed in 0.883 minutes
+epoch 220 has passed in 0.869 minutes
+epoch 221 has passed in 0.86 minutes
+epoch 222 has passed in 0.863 minutes
+epoch 223 has passed in 0.863 minutes
+epoch 224 has passed in 0.868 minutes
+epoch 225 has passed in 0.864 minutes
+epoch 226 has passed in 0.862 minutes
+epoch 227 has passed in 0.878 minutes
+epoch 228 has passed in 0.888 minutes
+epoch 229 has passed in 0.862 minutes
+epoch 230 has passed in 0.854 minutes
+epoch 231 has passed in 0.819 minutes
+epoch 232 has passed in 0.831 minutes
+epoch 233 has passed in 0.821 minutes
+epoch 234 has passed in 0.818 minutes
+epoch 235 has passed in 0.866 minutes
+epoch 236 has passed in 0.935 minutes
+epoch 237 has passed in 1.011 minutes
+epoch 238 has passed in 1.093 minutes
+epoch 239 has passed in 0.996 minutes
+epoch 240 has passed in 0.993 minutes
+epoch 241 has passed in 0.98 minutes
+epoch 242 has passed in 0.976 minutes
+epoch 243 has passed in 0.986 minutes
+epoch 244 has passed in 0.981 minutes
+epoch 245 has passed in 1.009 minutes
+epoch 246 has passed in 1.026 minutes
+epoch 247 has passed in 1.026 minutes
+epoch 248 has passed in 1.003 minutes
+epoch 249 has passed in 0.998 minutes
+epoch 250 has passed in 0.961 minutes
+epoch 251 has passed in 0.967 minutes
+epoch 252 has passed in 0.989 minutes
+epoch 253 has passed in 1.015 minutes
+epoch 254 has passed in 0.988 minutes
+epoch 255 has passed in 0.997 minutes
+epoch 256 has passed in 0.995 minutes
+epoch 257 has passed in 1.004 minutes
+epoch 258 has passed in 1.013 minutes
+epoch 259 has passed in 1.044 minutes
+epoch 260 has passed in 1.018 minutes
+epoch 261 has passed in 1.017 minutes
+epoch 262 has passed in 1.15 minutes
+epoch 263 has passed in 1.146 minutes
+epoch 264 has passed in 1.064 minutes
+epoch 265 has passed in 1.091 minutes
+epoch 266 has passed in 1.066 minutes
+epoch 267 has passed in 0.999 minutes
+epoch 268 has passed in 1.004 minutes
+epoch 269 has passed in 1.021 minutes
+epoch 270 has passed in 1.0 minutes
+epoch 271 has passed in 1.001 minutes
+epoch 272 has passed in 0.996 minutes
+epoch 273 has passed in 0.995 minutes
+epoch 274 has passed in 1.002 minutes
+epoch 275 has passed in 0.894 minutes
+epoch 276 has passed in 0.946 minutes
+epoch 277 has passed in 1.034 minutes
+epoch 278 has passed in 1.046 minutes
+epoch 279 has passed in 1.016 minutes
+epoch 280 has passed in 1.014 minutes
+epoch 281 has passed in 1.028 minutes
+epoch 282 has passed in 1.027 minutes
+epoch 283 has passed in 0.886 minutes
+epoch 284 has passed in 0.868 minutes
+epoch 285 has passed in 0.884 minutes
+epoch 286 has passed in 0.879 minutes
+epoch 287 has passed in 0.882 minutes
+epoch 288 has passed in 0.9 minutes
+epoch 289 has passed in 0.918 minutes
+epoch 290 has passed in 0.901 minutes
+epoch 291 has passed in 0.903 minutes
+epoch 292 has passed in 0.914 minutes
+epoch 293 has passed in 0.927 minutes
+epoch 294 has passed in 0.951 minutes
+epoch 295 has passed in 0.941 minutes
+epoch 296 has passed in 0.927 minutes
+epoch 297 has passed in 0.907 minutes
+epoch 298 has passed in 0.879 minutes
+epoch 299 has passed in 0.949 minutes
+epoch 300 has passed in 0.977 minutes
+0.6575817002414387
+0.7038364697247597
+getting accuracy
+50000 [0.15025393664836884, 0.31843331456184387, 0.5313127636909485] 2 2
+100000 [0.0739499107003212, 0.47556450963020325, 0.45048555731773376] 1 1
+150000 [0.0844230130314827, 0.7186614871025085, 0.19691550731658936] 1 1
+200000 [0.02938450686633587, 0.24180477857589722, 0.728810727596283] 2 2
+250000 [0.5361501574516296, 0.42035868763923645, 0.04349115863442421] 0 0
+300000 [0.0005362712545320392, 0.0477326326072216, 0.9517310857772827] 2 2
+350000 [0.10880063474178314, 0.6187999248504639, 0.2723994553089142] 1 1
+400000 [0.39548686146736145, 0.5605570673942566, 0.04395608603954315] 1 1
+450000 [0.21686455607414246, 0.7530724406242371, 0.030062992125749588] 1 1
+500000 [0.13714024424552917, 0.8087021708488464, 0.05415749177336693] 1 1
+accuracy is 71.70447895439005%
+accuracy got in 0.27 minutes
+done in 287.4 minutes
+Thu Jan 27 15:14:25 2022
+Jordan trained. 
+
+[68.7366988997838, 71.70447895439005]
+
+The name of this net is Fernando. It starts initialisation. Fri Jan 28 00:48:37 2022
+loaded 531441 531441
+531441
+creating dataset 531441 531441
+C:\Users\DenBa\PycharmProjects\1\net.py:38: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+net inited in  0.0007 minutes
+epoch 1 has passed in 0.571 minutes, accuracy is 64.04398606806777%
+epoch 2 has passed in 0.546 minutes, accuracy is 64.78235589651533%
+epoch 3 has passed in 0.55 minutes, accuracy is 65.30621461272277%
+epoch 4 has passed in 0.555 minutes, accuracy is 65.71792541410993%
+epoch 5 has passed in 0.572 minutes, accuracy is 66.06885806702908%
+epoch 6 has passed in 0.565 minutes, accuracy is 66.40624264970147%
+epoch 7 has passed in 0.693 minutes, accuracy is 66.65575294341235%
+epoch 8 has passed in 0.718 minutes, accuracy is 66.89002165809563%
+epoch 9 has passed in 0.658 minutes, accuracy is 67.09211370594291%
+epoch 10 has passed in 0.693 minutes, accuracy is 67.27200197199689%
+epoch 11 has passed in 0.597 minutes, accuracy is 67.41632655365318%
+epoch 12 has passed in 0.618 minutes, accuracy is 67.5632854823019%
+epoch 13 has passed in 0.652 minutes, accuracy is 67.67562156476447%
+epoch 14 has passed in 0.622 minutes, accuracy is 67.73075468396303%
+epoch 15 has passed in 0.672 minutes, accuracy is 67.84327893406794%
+epoch 16 has passed in 0.559 minutes, accuracy is 67.91045478237471%
+epoch 17 has passed in 0.561 minutes, accuracy is 67.99287220970908%
+epoch 18 has passed in 0.537 minutes, accuracy is 68.09598807769818%
+epoch 19 has passed in 0.538 minutes, accuracy is 68.17558299039781%
+epoch 20 has passed in 0.551 minutes, accuracy is 68.23278595366183%
+epoch 21 has passed in 0.543 minutes, accuracy is 68.2975156226185%
+epoch 22 has passed in 0.593 minutes, accuracy is 68.33966517449727%
+epoch 23 has passed in 0.545 minutes, accuracy is 68.42151809890467%
+epoch 24 has passed in 0.541 minutes, accuracy is 68.49170462948851%
+epoch 25 has passed in 0.561 minutes, accuracy is 68.58334227129635%
+epoch 26 has passed in 0.541 minutes, accuracy is 68.64355591683743%
+epoch 27 has passed in 0.576 minutes, accuracy is 68.7047104005901%
+epoch 28 has passed in 0.541 minutes, accuracy is 68.74083858791474%
+epoch 29 has passed in 0.543 minutes, accuracy is 68.82382051817605%
+epoch 30 has passed in 0.635 minutes, accuracy is 68.84941131753102%
+epoch 31 has passed in 0.62 minutes, accuracy is 68.9203505186841%
+epoch 32 has passed in 0.583 minutes, accuracy is 68.92674821852285%
+epoch 33 has passed in 0.552 minutes, accuracy is 68.95967755592812%
+epoch 34 has passed in 0.591 minutes, accuracy is 69.02083203968078%
+epoch 35 has passed in 0.569 minutes, accuracy is 69.04886901838586%
+epoch 36 has passed in 0.536 minutes, accuracy is 69.0530087065168%
+epoch 37 has passed in 0.541 minutes, accuracy is 69.08443270278356%
+epoch 38 has passed in 0.532 minutes, accuracy is 69.11152884327704%
+epoch 39 has passed in 0.53 minutes, accuracy is 69.14935053938255%
+epoch 40 has passed in 0.547 minutes, accuracy is 69.1642157831255%
+epoch 41 has passed in 0.626 minutes, accuracy is 69.21408020833921%
+epoch 42 has passed in 0.6 minutes, accuracy is 69.24757404867144%
+epoch 43 has passed in 0.607 minutes, accuracy is 69.2637564659106%
+epoch 44 has passed in 0.631 minutes, accuracy is 69.30101365908916%
+epoch 45 has passed in 0.534 minutes, accuracy is 69.33375482885212%
+epoch 46 has passed in 0.532 minutes, accuracy is 69.34730289909886%
+epoch 47 has passed in 0.538 minutes, accuracy is 69.35878112528013%
+epoch 48 has passed in 0.541 minutes, accuracy is 69.38926428333531%
+epoch 49 has passed in 0.528 minutes, accuracy is 69.39001695390458%
+epoch 50 has passed in 0.565 minutes, accuracy is 69.41203256805554%
+0.6888570954135145
+0.7244992752373218
+getting accuracy
+50000 [0.19429467618465424, 0.3352150619029999, 0.4704902470111847] 2 2
+100000 [0.06016366928815842, 0.53654545545578, 0.40329083800315857] 1 1
+150000 [0.08462528139352798, 0.5545101165771484, 0.3608645796775818] 1 1
+200000 [0.05329076200723648, 0.5619503855705261, 0.38475877046585083] 1 2
+250000 [0.34002619981765747, 0.36505404114723206, 0.2949197292327881] 1 0
+300000 [0.002303541637957096, 0.13143488764762878, 0.8662616014480591] 2 2
+350000 [0.05986655130982399, 0.6295934319496155, 0.3105400800704956] 1 1
+400000 [0.3480548858642578, 0.5858539342880249, 0.06609120219945908] 1 1
+450000 [0.3119978606700897, 0.619418203830719, 0.0685839131474495] 1 1
+500000 [0.15975096821784973, 0.8044506907463074, 0.035798363387584686] 1 1
+accuracy is 69.41203256805554%
+accuracy got in 0.28 minutes
+done in 42.1 minutes
+Fri Jan 28 01:30:40 2022
+Fernando trained. 
